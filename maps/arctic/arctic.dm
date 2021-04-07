@@ -11,6 +11,7 @@
 	#include "../shared/items/clothing.dm"
 
 	#include "job/jobs.dm"
+	#include "browser/browser.dm"
 
 	#include "arctic_gamemodes.dm"
 	#include "arctic_presets.dm"

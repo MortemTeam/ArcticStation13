@@ -1,8 +1,8 @@
 /datum/map/arctic
 	allowed_jobs = list(
 		/datum/job/command/research_director,
-		/datum/job/scientist,
-		/datum/job/roboticist,
+		/datum/job/rnd/scientist,
+		/datum/job/rnd/roboticist,
 
 		/datum/job/command/head_of_security,
 		/datum/job/security/officer,
@@ -328,5 +328,5 @@
 	total_positions = 2
 	spawn_positions = 2
 
-/datum/job/cyborg/equip(var/mob/living/carbon/human/H)
-	return H
+	equip(var/mob/living/carbon/human/H)
+		return H
