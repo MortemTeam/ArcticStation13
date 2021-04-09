@@ -21,3 +21,6 @@
 	name = "Station"
 	landmark_tag = "nav_escape_dock"
 	docking_controller = "escape_dock"
+
+	is_valid(var/datum/shuttle/shuttle)
+		return TRUE

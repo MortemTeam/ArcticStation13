@@ -33,7 +33,6 @@
 "bN" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/camera/network/research{dir = 8},/turf/simulated/floor/tiled/bright,/area/rnd/devlab)
 "bU" = (/obj/machinery/camera/network/research{dir = 4},/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "cb" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/space_heater,/turf/simulated/floor/tiled/dark,/area/rnd/storage)
-"cf" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/bodybags,/obj/item/weapon/storage/box/bodybags,/turf/simulated/floor/tiled/bright,/area/space)
 "cr" = (/obj/machinery/vending/coffee,/turf/simulated/floor/tiled/bright,/area/hallway/cafeteria)
 "ct" = (/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "cA" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/office)
@@ -42,7 +41,6 @@
 "cK" = (/obj/machinery/door/airlock/engineering,/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
 "cX" = (/obj/machinery/floodlight,/turf/simulated/floor/plating,/area/maintenance/research_port)
 "dd" = (/turf/simulated/floor/tiled/dark,/area/escape/brig)
-"dh" = (/obj/machinery/door/airlock/medical,/turf/simulated/floor/tiled/bright,/area/space)
 "di" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled/bright,/area/hallway/eva)
 "du" = (/obj/machinery/r_n_d/server/core,/obj/structure/window/reinforced,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/dark,/area/rnd/server)
 "dw" = (/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/dark,/area/rnd/storage)
@@ -86,10 +84,10 @@
 "gv" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/light/spot{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/rnd/storage)
 "gF" = (/obj/machinery/light/spot{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "gH" = (/obj/structure/railing,/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
+"gJ" = (/obj/structure/window/shuttle,/obj/structure/flora/pottedplant/thinbush,/turf/simulated/floor/tiled/bright,/area/space)
 "gM" = (/obj/machinery/door/firedoor/multi_tile{dir = 1},/obj/machinery/door/airlock/science,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/rnd/activelab)
 "gN" = (/obj/structure/table/rack,/obj/item/clothing/suit/space/void/rmc,/obj/item/clothing/suit/space/void/rmc,/obj/item/clothing/head/helmet/space/void/rmc,/obj/item/clothing/head/helmet/space/void/rmc,/obj/machinery/alarm{pixel_y = 24},/turf/simulated/floor/tiled/bright,/area/hallway/eva)
 "gP" = (/obj/machinery/space_heater,/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
-"gR" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/gloves,/obj/item/weapon/storage/box/gloves,/turf/simulated/floor/tiled/bright,/area/space)
 "gW" = (/obj/machinery/door/airlock/maintenance_hatch,/obj/machinery/door/firedoor/border_only,/turf/simulated/wall,/area/hallway/cafeteria)
 "ha" = (/obj/machinery/atmospherics/omni/filter,/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
 "hg" = (/obj/machinery/door/blast/shutters{dir = 8; id = "exitout"},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
@@ -103,7 +101,6 @@
 "hX" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
 "ic" = (/obj/item/modular_computer/console/preset/security,/obj/machinery/light/spot,/turf/simulated/floor/tiled/dark,/area/hallway/exit_post)
 "ig" = (/obj/structure/cable/pink{d2 = 2; dir = 2; icon_state = "0-2"},/obj/machinery/power/apc/high{dir = 1},/turf/simulated/floor/tiled/bright,/area/rnd/research)
-"ii" = (/obj/structure/table/reinforced,/obj/machinery/door/window{dir = 8},/turf/simulated/floor/tiled/bright,/area/space)
 "im" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/turf/simulated/floor/tiled/bright,/area/rnd/research)
 "is" = (/obj/machinery/door/airlock/maintenance_rnd,/turf/simulated/wall/r_wall,/area/rnd/devlab)
 "iu" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/dark,/area/escape/command)
@@ -117,12 +114,10 @@
 "iX" = (/obj/machinery/door/blast/regular/open{id = "rndlockdown"},/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/research)
 "ja" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "jc" = (/obj/structure/extinguisher_cabinet{pixel_y = 31},/turf/simulated/floor/tiled/bright,/area/rnd/research)
-"jd" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/syringes,/obj/item/weapon/storage/box/syringes,/turf/simulated/floor/tiled/bright,/area/space)
 "jj" = (/turf/simulated/floor/tiled/bright,/area/hallway/primary/fore)
 "jn" = (/obj/machinery/mineral/output,/obj/machinery/conveyor{dir = 1; id = "rndmine"},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "jw" = (/obj/structure/table/reinforced,/obj/item/weapon/stock_parts/manipulator,/obj/item/weapon/stock_parts/manipulator,/obj/structure/extinguisher_cabinet{pixel_y = 31},/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "jx" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/bright,/area/rnd/research)
-"jB" = (/obj/structure/bed/chair/office/light{dir = 8},/turf/simulated/floor/tiled/bright,/area/space)
 "jC" = (/obj/structure/table/reinforced,/obj/machinery/photocopier/faxmachine,/turf/simulated/floor/tiled/dark,/area/escape/command)
 "jD" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/light/spot{dir = 1},/obj/structure/extinguisher_cabinet{pixel_y = 31},/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
 "jF" = (/obj/machinery/atmospherics/unary/vent_pump/siphon/on{dir = 1},/turf/simulated/floor/reinforced/airmix,/area/escape/atmospherics)
@@ -130,7 +125,6 @@
 "jI" = (/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "jL" = (/obj/structure/table/reinforced,/obj/item/weapon/stock_parts/scanning_module,/obj/item/weapon/stock_parts/scanning_module,/obj/structure/fireaxecabinet{pixel_y = 31},/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "jM" = (/obj/effect/wingrille_spawn/reinforced_phoron/full,/obj/machinery/atmospherics/pipe/simple/hidden,/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
-"jR" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/bright,/area/space)
 "jU" = (/obj/effect/wingrille_spawn/reinforced,/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
 "jV" = (/obj/effect/floor_decal/industrial/loading{dir = 8},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "ka" = (/turf/simulated/floor/reinforced/airmix,/area/rnd/atmospherics)
@@ -158,8 +152,6 @@
 "me" = (/obj/structure/cable/pink{d1 = 1; d2 = 8; dir = 2; icon_state = "1-8"},/turf/simulated/floor/tiled/bright,/area/hallway/cafeteria)
 "mh" = (/obj/machinery/firealarm{pixel_y = -34},/turf/simulated/floor/tiled/bright,/area/rnd/research)
 "ml" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
-"mq" = (/obj/structure/table/glass,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/turf/simulated/floor/tiled/bright,/area/space)
-"mr" = (/obj/structure/bed/comfy,/turf/simulated/floor/tiled/bright,/area/space)
 "ms" = (/obj/structure/cable/pink{d2 = 2; dir = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/dark,/area/escape/brig)
 "mz" = (/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/hallway/primary/fore)
 "mB" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor/tiled/bright,/area/rnd/office)
@@ -180,7 +172,6 @@
 "nE" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/mining/brace{dir = 4},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "nG" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled/bright,/area/hallway/primary/fore)
 "nI" = (/obj/machinery/door/blast/shutters{dir = 8; id = "exitin"},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
-"nK" = (/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
 "nN" = (/obj/machinery/floodlight,/turf/simulated/floor/plating,/area/maintenance/research_starboard)
 "nS" = (/obj/structure/bed/chair/office/dark{dir = 1},/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/alarm/server{dir = 4; pixel_x = -24},/obj/machinery/firealarm{pixel_y = -34},/turf/simulated/floor/tiled/dark,/area/rnd/server)
 "nW" = (/obj/effect/wingrille_spawn/reinforced,/obj/machinery/door/firedoor/border_only,/turf/space,/area/hallway/exit_post)
@@ -194,7 +185,6 @@
 "oN" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/power/port_gen/pacman,/turf/simulated/floor/tiled/dark,/area/rnd/storage)
 "oU" = (/obj/structure/closet/wardrobe/robotics_black,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled/dark,/area/rnd/devlab)
 "oW" = (/obj/structure/bed/chair/office/light{dir = 8},/obj/machinery/light/spot{dir = 4},/obj/effect/landmark/start{name = "Научный сотрудник"},/turf/simulated/floor/carpet/blue2,/area/rnd/office)
-"oX" = (/obj/structure/table/standard,/obj/item/weapon/storage/pill_bottle/dylovene,/obj/item/weapon/storage/pill_bottle/dylovene,/obj/item/weapon/storage/pill_bottle/inaprovaline,/obj/item/weapon/storage/pill_bottle/inaprovaline,/turf/simulated/floor/tiled/bright,/area/space)
 "oZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/universal{dir = 4},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
 "pa" = (/turf/simulated/mineral,/area/space)
 "pb" = (/obj/structure/bed/chair/office/dark,/obj/machinery/power/apc/high{dir = 1},/turf/simulated/floor/tiled/dark,/area/escape/brig)
@@ -202,12 +192,10 @@
 "pg" = (/obj/structure/flora/pottedplant/tropical,/obj/structure/railing,/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "pr" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/alarm{pixel_y = 24},/turf/simulated/floor/tiled/dark,/area/rnd/storage)
 "pu" = (/turf/simulated/floor/tiled/dark,/area/escape/hall)
-"pv" = (/obj/structure/bed/chair/office/light,/turf/simulated/floor/tiled/bright,/area/space)
 "pw" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "py" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/bright,/area/rnd/devlab)
 "pA" = (/obj/structure/bed/chair/comfy/black{dir = 1},/turf/simulated/floor/tiled/bright,/area/hallway/cafeteria)
 "pO" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/binary/pump/high_power{dir = 1},/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
-"pP" = (/obj/machinery/vending/medical,/turf/simulated/floor/tiled/bright,/area/space)
 "pS" = (/obj/machinery/chemical_dispenser/bar_coffee/full{pixel_y = 3},/obj/structure/table/glass,/turf/simulated/floor/carpet/blue,/area/rnd/office)
 "pV" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/rnd/activelab)
 "pX" = (/obj/machinery/door/airlock/glass_science,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/bright,/area/rnd/devlab)
@@ -215,7 +203,6 @@
 "qh" = (/obj/machinery/power/apc/high{dir = 8},/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/light/spot{dir = 8},/obj/structure/cable/pink{d2 = 2; dir = 2; icon_state = "0-2"},/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "qi" = (/obj/machinery/door/blast/shutters{dir = 8; id = "exitout"},/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
 "qm" = (/obj/structure/cable/pink{d1 = 1; d2 = 8; dir = 2; icon_state = "1-8"},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/plating,/area/maintenance/research_starboard)
-"qx" = (/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled/bright,/area/space)
 "qy" = (/obj/machinery/portable_atmospherics/canister/empty/air,/turf/simulated/floor/reinforced/airmix,/area/escape/atmospherics)
 "qz" = (/obj/effect/floor_decal/corner/orange/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "qA" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/window/reinforced/polarized{dir = 4},/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
@@ -235,20 +222,18 @@
 "rw" = (/turf/simulated/wall/r_wall,/area/rnd/storage)
 "ry" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/structure/cable/pink{d1 = 1; d2 = 8; dir = 2; icon_state = "1-8"},/obj/structure/cable/pink{d2 = 8; dir = 2; icon_state = "0-8"},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "rE" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/turf/simulated/floor/tiled/dark,/area/rnd/server)
+"rF" = (/turf/simulated/wall/r_wall,/area/hallway/exit_post)
 "rH" = (/obj/machinery/vending/cigarette,/turf/simulated/floor/tiled/bright,/area/hallway/cafeteria)
 "rI" = (/obj/item/modular_computer/console/preset/research,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "rN" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
-"rQ" = (/obj/structure/table/glass,/obj/machinery/reagentgrinder,/turf/simulated/floor/tiled/bright,/area/space)
 "rR" = (/obj/machinery/computer/rcon,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "rT" = (/obj/effect/floor_decal/industrial/warning,/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/plating,/area/shuttle/escape/station)
 "rX" = (/obj/structure/bed/chair/comfy/brown,/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/escape/command)
 "sa" = (/obj/effect/wingrille_spawn/reinforced_phoron/full,/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
-"sc" = (/obj/effect/wingrille_spawn,/turf/simulated/floor/tiled/bright,/area/space)
 "sh" = (/obj/machinery/r_n_d/circuit_imprinter,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/devlab)
 "sp" = (/obj/machinery/firealarm{pixel_y = -34},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "sx" = (/obj/machinery/vending/coffee,/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "sD" = (/obj/effect/wingrille_spawn/reinforced_phoron/full,/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
-"sI" = (/obj/structure/table/woodentable,/turf/simulated/floor/tiled/bright,/area/space)
 "sK" = (/obj/effect/wingrille_spawn/reinforced,/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/tiled/dark,/area/escape/brig)
 "sM" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/window/reinforced/polarized{dir = 4},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "sN" = (/turf/simulated/floor/tiled/dark,/area/hallway/exit_post)
@@ -259,11 +244,9 @@
 "tk" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/research)
 "tl" = (/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/obj/structure/cable/pink{d1 = 2; d2 = 4; dir = 2; icon_state = "2-4"},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "tm" = (/obj/machinery/light/spot,/turf/simulated/floor/exoplanet/water/shallow,/area/rnd/restroom)
-"tu" = (/obj/structure/window/reinforced{dir = 8},/obj/structure/bed/comfy,/turf/simulated/floor/tiled/bright,/area/space)
 "tw" = (/obj/effect/floor_decal/corner/orange/diagonal,/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "ty" = (/obj/machinery/light/spot{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor/exoplanet/water/shallow,/area/rnd/restroom)
 "tI" = (/obj/machinery/door/airlock/security,/obj/machinery/door/firedoor/border_only,/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/escape/brig)
-"tN" = (/turf/simulated/mineral/random,/area/space)
 "tP" = (/obj/effect/wingrille_spawn,/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/tiled/bright,/area/hallway/cafeteria)
 "tS" = (/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "tV" = (/obj/machinery/autolathe,/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/tiled/bright,/area/rnd/devlab)
@@ -283,13 +266,11 @@
 "vg" = (/obj/structure/railing{dir = 8},/obj/structure/flora/pottedplant/smalltree,/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "vp" = (/turf/simulated/floor/snow,/area/eye_blind)
 "vq" = (/obj/effect/wingrille_spawn/reinforced_phoron/full,/obj/machinery/atmospherics/pipe/simple/hidden,/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
-"vs" = (/obj/structure/table/standard,/obj/item/weapon/storage/firstaid/adv,/obj/item/weapon/storage/firstaid/adv,/turf/simulated/floor/tiled/bright,/area/space)
 "vD" = (/obj/effect/floor_decal/corner/orange/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "vH" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
 "vS" = (/obj/machinery/light/spot{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor/exoplanet/water/shallow,/area/rnd/restroom)
 "vX" = (/obj/machinery/light/spot,/obj/structure/table/woodentable,/obj/item/weapon/material/ashtray,/turf/simulated/floor/tiled/bright,/area/hallway/cafeteria)
 "vY" = (/obj/effect/floor_decal/corner/orange/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/obj/structure/cable/pink{d1 = 1; d2 = 8; dir = 2; icon_state = "1-8"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
-"wa" = (/obj/machinery/embedded_controller/radio/simple_docking_controller{frequency = 1380; id_tag = "escape_dock"; pixel_x = -33; tag_door = "escape_dock_hatch"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "wd" = (/obj/machinery/portable_atmospherics/powered/pump/filled,/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
 "wg" = (/obj/machinery/portable_atmospherics/powered/pump/filled,/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
 "wC" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled/dark,/area/escape/command)
@@ -300,7 +281,6 @@
 "wO" = (/obj/structure/table/reinforced,/obj/machinery/door/window/brigdoor,/obj/machinery/button/remote/blast_door{id = "rndaccess"; name = "RnD Access"},/turf/simulated/floor/tiled/dark,/area/hallway/rnd_post)
 "wP" = (/obj/machinery/vending/snack,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "wZ" = (/obj/structure/table/woodentable,/turf/simulated/floor/tiled/dark,/area/escape/hall)
-"xa" = (/obj/machinery/computer/guestpass{pixel_x = 32},/turf/simulated/floor/tiled/bright,/area/space)
 "xb" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/dark,/area/rnd/server)
 "xg" = (/obj/machinery/door/airlock/maintenance_rnd,/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/plating,/area/maintenance/research_port)
 "xu" = (/obj/structure/table/reinforced,/obj/machinery/reagentgrinder,/turf/simulated/floor/tiled/dark,/area/escape/hall)
@@ -308,7 +288,6 @@
 "xC" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/air_sensor,/turf/simulated/floor/tiled/dark,/area/rnd/storage)
 "xE" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/snow,/area/hallway/exit_post)
 "xF" = (/obj/structure/table/glass,/obj/item/device/flashlight/lamp,/turf/simulated/floor/carpet/blue2,/area/rnd/office)
-"xK" = (/obj/effect/wingrille_spawn,/turf/space,/area/space)
 "xM" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/bright,/area/rnd/office)
 "xN" = (/obj/machinery/atm{pixel_x = -24},/turf/simulated/floor/tiled/bright,/area/hallway/cafeteria)
 "xO" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/firealarm{pixel_y = -34},/turf/simulated/floor/tiled/dark,/area/rnd/storage)
@@ -322,7 +301,6 @@
 "yo" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/rnd/activelab)
 "yq" = (/obj/structure/bed/chair/bunker/comfy,/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "yu" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/effect/floor_decal/corner/purple/diagonal,/obj/structure/cable/pink{d1 = 1; d2 = 8; dir = 2; icon_state = "1-8"},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
-"yv" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled/bright,/area/space)
 "yw" = (/turf/simulated/wall/r_wall,/area/rnd/restroom)
 "yA" = (/obj/structure/bed/chair/office/dark{dir = 8},/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "yC" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/mining/brace{dir = 4},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
@@ -345,7 +323,6 @@
 "zF" = (/obj/structure/closet/wardrobe/robotics_black,/turf/simulated/floor/tiled/dark,/area/rnd/devlab)
 "zN" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 9},/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
 "zV" = (/obj/machinery/door/airlock/glass_science,/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/bright,/area/maintenance/substation/research)
-"zX" = (/obj/structure/table/reinforced,/obj/machinery/door/window/northleft,/turf/simulated/floor/tiled/bright,/area/space)
 "Ad" = (/obj/structure/table/reinforced,/obj/item/weapon/paper_bin,/obj/item/weapon/pen/expensive,/turf/simulated/floor/tiled/dark,/area/escape/command)
 "Al" = (/obj/effect/wingrille_spawn/reinforced_phoron/full,/obj/machinery/atmospherics/pipe/simple/hidden{dir = 8},/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
 "An" = (/obj/effect/wingrille_spawn/reinforced,/obj/machinery/door/firedoor/border_only,/obj/machinery/door/blast/regular/open{id = "rndlockdown"},/turf/simulated/floor/tiled/bright,/area/rnd/office)
@@ -358,7 +335,6 @@
 "AO" = (/obj/machinery/door/airlock/command,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/door/firedoor/border_only,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/escape/command)
 "AR" = (/obj/structure/table/reinforced,/obj/machinery/button/remote/blast_door{id = "exitlockdown"; name = "Escape Lockdown"},/obj/machinery/alarm{pixel_y = 24},/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/dark,/area/escape/command)
 "AX" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/bright,/area/rnd/research)
-"Ba" = (/obj/structure/table/standard,/obj/item/bodybag/cryobag,/obj/item/bodybag/cryobag,/obj/item/bodybag/cryobag,/obj/item/bodybag/cryobag,/turf/simulated/floor/tiled/bright,/area/space)
 "Bb" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/mining/brace{dir = 8},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "Bj" = (/turf/simulated/floor/snow,/area/paralysis)
 "Br" = (/obj/machinery/power/apc/high{dir = 8},/obj/machinery/light/spot{dir = 8},/obj/structure/cable/pink{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/pink{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/plating,/area/maintenance/research_port)
@@ -387,11 +363,9 @@
 "CW" = (/obj/machinery/power/apc/high{dir = 8},/obj/structure/cable/pink{d2 = 2; dir = 2; icon_state = "0-2"},/turf/simulated/floor/plating,/area/maintenance/research_starboard)
 "CX" = (/obj/machinery/power/smes/buildable,/obj/structure/window/shuttle,/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "CZ" = (/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled/dark,/area/hallway/rnd_post)
-"Dc" = (/obj/machinery/door/blast/shutters,/turf/simulated/floor/tiled/bright,/area/hallway/primary/fore)
 "Dm" = (/obj/machinery/light/spot,/obj/structure/cable/pink{d2 = 8; dir = 2; icon_state = "0-8"},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/obj/machinery/power/terminal{dir = 1},/turf/simulated/floor/tiled/bright,/area/maintenance/substation/research)
 "Dn" = (/turf/simulated/floor/tiled/bright,/area/rnd/chargebay)
 "Do" = (/obj/machinery/optable,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/devlab)
-"Dr" = (/obj/machinery/door/airlock/multi_tile/glass,/turf/simulated/floor/tiled/bright,/area/space)
 "Dw" = (/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "Dz" = (/obj/structure/extinguisher_cabinet{pixel_y = 31},/turf/simulated/floor/tiled/bright,/area/hallway/primary/fore)
 "DA" = (/obj/effect/floor_decal/industrial/warning,/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/plating,/area/escape/shuttle)
@@ -420,7 +394,6 @@
 "FA" = (/obj/machinery/firealarm{pixel_y = -34},/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "FD" = (/obj/structure/bed/chair/comfy/brown{dir = 1},/turf/simulated/floor/tiled/dark,/area/escape/command)
 "FG" = (/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled/bright,/area/rnd/research)
-"FI" = (/obj/structure/window/reinforced{dir = 8},/obj/machinery/iv_drip,/turf/simulated/floor/tiled/bright,/area/space)
 "FM" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
 "FV" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/structure/cable/pink{d1 = 2; d2 = 4; dir = 2; icon_state = "2-4"},/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/turf/simulated/floor/tiled/dark,/area/escape/command)
 "Gg" = (/obj/machinery/portable_atmospherics/powered/scrubber,/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
@@ -433,7 +406,6 @@
 "GE" = (/obj/machinery/vending/assist,/turf/simulated/floor/tiled/bright,/area/rnd/research)
 "GP" = (/obj/structure/railing{dir = 1},/obj/structure/bed/chair/comfy/brown{dir = 4},/obj/effect/landmark/start{name = "Научный сотрудник"},/obj/effect/landmark/start{name = "Робототехник"},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "Hc" = (/obj/machinery/atmospherics/unary/outlet_injector,/turf/simulated/floor/snow,/area/rnd/atmospherics)
-"Hj" = (/obj/machinery/bodyscanner,/turf/simulated/floor/tiled/bright,/area/space)
 "Hn" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/structure/extinguisher_cabinet{pixel_y = 31},/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/turf/simulated/floor/tiled/dark,/area/rnd/storage)
 "Ho" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/bright,/area/rnd/research)
 "Hq" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 1},/turf/simulated/floor/snow,/area/escape/atmospherics)
@@ -444,22 +416,22 @@
 "HC" = (/obj/machinery/door/firedoor/border_only,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "HJ" = (/obj/machinery/door/firedoor/border_only,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "HK" = (/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/maintenance/research_port)
-"HL" = (/obj/structure/table/woodentable,/obj/item/weapon/paper_bin,/obj/item/weapon/pen/expensive,/turf/simulated/floor/tiled/bright,/area/space)
-"HM" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled/bright,/area/space)
 "HO" = (/obj/machinery/door/airlock/security,/obj/machinery/atmospherics/mains_pipe/simple/hidden,/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/tiled/dark,/area/hallway/rnd_post)
-"HP" = (/obj/effect/wingrille_spawn,/turf/simulated/floor/snow,/area/space)
 "HQ" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "HR" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/structure/railing,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "HT" = (/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/plating,/area/maintenance/research_starboard)
 "HW" = (/turf/simulated/wall/r_wall,/area/rnd/chargebay)
 "HZ" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/firealarm{pixel_y = -34},/turf/simulated/floor/tiled/bright,/area/rnd/devlab)
+"Il" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/bright,/area/space)
 "Im" = (/obj/machinery/door/blast/regular/open{id = "rndlockdown"},/turf/simulated/floor/tiled/bright,/area/rnd/research)
 "Io" = (/obj/machinery/atmospherics/binary/pump/high_power,/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
 "Iq" = (/obj/machinery/door/airlock/maintenance_rnd,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/maintenance/research_port)
+"Ix" = (/obj/machinery/embedded_controller/radio/simple_docking_controller{frequency = 1380; id_tag = "escape_dock"; pixel_x = -33; tag_door = "escape_dock_hatch"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "IH" = (/obj/machinery/mineral/stacking_unit_console{pixel_y = -32},/obj/effect/floor_decal/corner/purple/diagonal,/obj/structure/railing{dir = 1},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "II" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/escape/command)
 "IJ" = (/obj/structure/railing{dir = 1},/obj/structure/table/woodentable,/obj/item/weapon/material/ashtray/glass,/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "IM" = (/turf/simulated/floor/exoplanet/water/shallow,/area/rnd/restroom)
+"IP" = (/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
 "IS" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/rnd/server)
 "IU" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "Jb" = (/obj/machinery/door/firedoor/multi_tile,/obj/machinery/door/airlock/glass_science,/turf/simulated/floor/tiled/bright,/area/rnd/office)
@@ -473,13 +445,11 @@
 "JN" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/computer/robotics,/turf/simulated/floor/tiled/dark,/area/rnd/server)
 "JQ" = (/obj/machinery/conveyor{dir = 5; id = "rndmine"},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "JT" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/plating,/area/shuttle/escape/station)
-"Ka" = (/obj/structure/table/standard,/obj/item/roller,/obj/item/roller,/obj/item/roller,/turf/simulated/floor/tiled/bright,/area/space)
 "Kb" = (/obj/machinery/atmospherics/pipe/simple/hidden/universal,/turf/simulated/floor/tiled/dark,/area/escape/atmospherics)
-"Kc" = (/obj/structure/bed/chair/comfy/blue,/turf/simulated/floor/tiled/bright,/area/space)
-"Kd" = (/obj/machinery/chemical_dispenser/full,/turf/simulated/floor/tiled/bright,/area/space)
 "Km" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/wall/r_wall,/area/rnd/activelab)
 "Kn" = (/obj/machinery/door/firedoor/border_only,/obj/machinery/door/blast/shutters{dir = 4; id = "rndmech"},/turf/simulated/floor/tiled/bright,/area/rnd/devlab)
 "Ks" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/plating,/area/shuttle/escape/station)
+"Kw" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
 "KC" = (/obj/effect/floor_decal/industrial/loading{dir = 8},/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
 "KI" = (/obj/structure/table/reinforced,/obj/item/weapon/stock_parts/capacitor,/obj/item/weapon/stock_parts/capacitor,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "KJ" = (/obj/machinery/power/terminal{dir = 8},/obj/structure/cable/pink{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
@@ -498,7 +468,6 @@
 "LZ" = (/obj/machinery/air_sensor,/turf/simulated/floor/reinforced/airmix,/area/rnd/atmospherics)
 "Ma" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/mineral/unloading_machine,/obj/structure/window/reinforced/polarized,/obj/effect/floor_decal/industrial/hatch,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "Mg" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/dark,/area/escape/hall)
-"Mj" = (/obj/machinery/smartfridge/secure/medbay,/turf/simulated/floor/tiled/bright,/area/space)
 "Ml" = (/obj/machinery/light/spot,/obj/structure/fireaxecabinet{pixel_y = -31},/turf/simulated/floor/carpet/blue,/area/rnd/office)
 "Mm" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/mineral/unloading_machine,/obj/structure/window/reinforced/polarized{dir = 1},/obj/effect/floor_decal/industrial/hatch,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "Mn" = (/obj/machinery/light/spot{dir = 1},/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/office)
@@ -512,15 +481,12 @@
 "Nc" = (/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
 "Nf" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/rnd/server)
 "Nm" = (/turf/simulated/wall/r_wall,/area/escape/shuttle)
-"Np" = (/obj/structure/window/shuttle,/obj/structure/flora/pottedplant/thinbush,/turf/space,/area/space)
 "Nq" = (/obj/structure/flora/pottedplant/mysterious,/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "Nt" = (/obj/structure/extinguisher_cabinet{pixel_y = 31},/obj/machinery/vending/snack,/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "Nx" = (/obj/machinery/door/airlock/maintenance_hatch,/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/plating,/area/space)
 "Nz" = (/turf/simulated/floor/plating,/area/maintenance/research_port)
-"NL" = (/obj/machinery/sleeper,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/bright,/area/space)
 "NN" = (/obj/structure/closet/crate/internals,/turf/simulated/floor/plating,/area/maintenance/research_starboard)
 "NO" = (/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled/bright,/area/hallway/primary/fore)
-"NQ" = (/obj/structure/window/shuttle,/obj/structure/flora/pottedplant/thinbush,/turf/simulated/floor/tiled/bright,/area/space)
 "NS" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/floodlight,/turf/simulated/floor/tiled/dark,/area/rnd/storage)
 "Ob" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled/dark,/area/rnd/server)
 "Oc" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/camera/network/research{dir = 1},/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
@@ -531,14 +497,12 @@
 "Os" = (/obj/effect/shuttle_landmark/escape/station,/turf/simulated/floor/plating,/area/shuttle/escape/station)
 "Ox" = (/obj/structure/bed/chair/comfy/red{dir = 8},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/bright,/area/hallway/cafeteria)
 "OB" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 8},/turf/simulated/floor/reinforced/airmix,/area/escape/atmospherics)
-"OD" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/bright,/area/space)
 "OJ" = (/obj/structure/table/standard,/turf/simulated/floor/plating,/area/maintenance/research_starboard)
 "OR" = (/obj/machinery/mech_recharger,/obj/machinery/firealarm{pixel_y = -34},/turf/simulated/floor/tiled/bright,/area/rnd/chargebay)
 "OS" = (/obj/machinery/space_heater,/turf/simulated/floor/plating,/area/maintenance/research_port)
 "OX" = (/turf/simulated/wall/r_wall,/area/maintenance/substation/research)
 "Pb" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/obj/machinery/power/apc/high{dir = 8},/obj/structure/cable/pink,/turf/simulated/floor/tiled/bright,/area/rnd/devlab)
 "Pe" = (/obj/effect/wingrille_spawn/reinforced,/obj/machinery/door/blast/shutters/open{id = "exitcommand"},/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/tiled/dark,/area/escape/command)
-"Pf" = (/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
 "Pg" = (/obj/machinery/mech_recharger,/obj/machinery/light/spot,/turf/simulated/floor/tiled/bright,/area/rnd/chargebay)
 "Pi" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/tiled/dark,/area/rnd/activelab)
 "Pm" = (/obj/structure/closet/secure_closet/scientist,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled/bright,/area/rnd/research)
@@ -561,14 +525,12 @@
 "Qq" = (/turf/simulated/floor/snow,/area/blurry)
 "Qr" = (/obj/machinery/door/firedoor/multi_tile,/obj/machinery/door/airlock/science,/turf/simulated/floor/tiled/dark,/area/rnd/activelab)
 "Qs" = (/turf/simulated/wall/r_wall,/area/rnd/research)
-"Qt" = (/obj/structure/bed/chair/comfy/blue{dir = 1},/turf/simulated/floor/tiled/bright,/area/space)
 "Qv" = (/obj/machinery/door/firedoor/multi_tile,/obj/machinery/door/airlock/science,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
 "QA" = (/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/turf/simulated/floor/tiled/bright,/area/hallway/eva)
 "QB" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/structure/railing{dir = 1},/obj/machinery/light/spot,/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "QD" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 8},/turf/simulated/floor/reinforced/airmix,/area/rnd/atmospherics)
 "QE" = (/obj/structure/bed/chair{dir = 1},/obj/effect/floor_decal/industrial/hatch/red,/obj/machinery/light/spot,/turf/simulated/floor/tiled/dark,/area/escape/brig)
 "QG" = (/obj/structure/bed/chair{dir = 1},/obj/effect/floor_decal/industrial/hatch/red,/turf/simulated/floor/tiled/dark,/area/escape/brig)
-"QI" = (/obj/structure/bed/chair/office/light{dir = 1},/turf/simulated/floor/tiled/bright,/area/space)
 "QJ" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
 "QR" = (/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "QV" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
@@ -579,7 +541,6 @@
 "Rw" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "RF" = (/obj/structure/closet/radiation,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/dark,/area/rnd/activelab)
 "RG" = (/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/office)
-"RK" = (/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/tiled/bright,/area/space)
 "RM" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable/pink{d1 = 1; d2 = 8; dir = 2; icon_state = "1-8"},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "RP" = (/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/tiled/dark,/area/hallway/exit_post)
 "RU" = (/obj/machinery/door/firedoor/border_only,/obj/machinery/door/blast/regular/open{id = "rndlockdown"},/turf/simulated/floor/tiled/bright,/area/rnd/chargebay)
@@ -600,10 +561,9 @@
 "ST" = (/obj/machinery/light/spot,/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
 "SV" = (/obj/structure/railing{dir = 4},/obj/structure/flora/pottedplant/sticky,/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "SW" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
+"Tc" = (/turf/simulated/floor/snow,/area/hallway/primary/fore)
 "Td" = (/obj/structure/table/reinforced,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/glass/fifty,/turf/simulated/floor/tiled/dark,/area/rnd/devlab)
 "Tf" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/structure/railing,/obj/structure/railing{dir = 4},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
-"Th" = (/obj/machinery/iv_drip,/turf/simulated/floor/tiled/bright,/area/space)
-"Ti" = (/turf/simulated/wall/r_wall,/area/hallway/exit_post)
 "Tl" = (/obj/machinery/robotic_fabricator,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled/dark,/area/rnd/devlab)
 "Tv" = (/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/bright,/area/rnd/research)
 "Tw" = (/obj/effect/floor_decal/corner/orange/diagonal,/obj/machinery/door/firedoor/border_only,/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/dark,/area/escape/hall)
@@ -622,7 +582,6 @@
 "UI" = (/obj/effect/floor_decal/corner/orange/diagonal,/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "UL" = (/obj/machinery/vending/snack,/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "UM" = (/obj/effect/floor_decal/corner/orange/diagonal,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
-"UP" = (/obj/item/modular_computer/console/preset/medical,/turf/simulated/floor/tiled/bright,/area/space)
 "UR" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/tiled/dark,/area/rnd/storage)
 "UV" = (/obj/structure/cable/pink{d1 = 1; d2 = 8; dir = 2; icon_state = "1-8"},/turf/simulated/floor/tiled/bright,/area/rnd/chargebay)
 "UY" = (/obj/machinery/atmospherics/pipe/simple/hidden/universal{dir = 4},/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
@@ -640,7 +599,6 @@
 "Wm" = (/obj/machinery/recharge_station,/turf/simulated/floor/tiled/bright,/area/rnd/chargebay)
 "Wv" = (/obj/structure/cable/pink{d1 = 2; d2 = 4; dir = 2; icon_state = "2-4"},/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
 "Wz" = (/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/turf/simulated/floor/tiled/bright,/area/hallway/primary/fore)
-"WA" = (/obj/machinery/smartfridge/secure/medbay,/turf/space,/area/space)
 "WF" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/structure/cable/pink{d1 = 2; d2 = 4; dir = 2; icon_state = "2-4"},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "WM" = (/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
 "WO" = (/turf/simulated/wall/r_wall,/area/hallway/rnd_post)
@@ -658,12 +616,9 @@
 "Xx" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable/pink{d1 = 1; d2 = 8; dir = 2; icon_state = "1-8"},/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "XK" = (/obj/machinery/mineral/processing_unit_console{pixel_x = -35; pixel_y = -6},/obj/effect/floor_decal/corner/purple/diagonal,/obj/structure/railing{dir = 8},/turf/simulated/floor/tiled/bright,/area/rnd/activelab)
 "XM" = (/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/hallway/exit_post)
-"XV" = (/obj/machinery/door/airlock/glass_chemistry,/turf/simulated/floor/tiled/bright,/area/space)
 "XX" = (/obj/structure/cable/pink{d1 = 2; d2 = 8; dir = 2; icon_state = "2-8"},/turf/simulated/floor/carpet/blue2,/area/rnd/office)
 "Ya" = (/obj/machinery/space_heater,/obj/effect/floor_decal/corner/purple/diagonal,/turf/simulated/floor/tiled/bright,/area/rnd/atmospherics)
-"Yd" = (/obj/machinery/bodyscanner,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/tiled/bright,/area/space)
 "Yf" = (/obj/structure/flora/pottedplant/crystal,/turf/simulated/floor/tiled/bright,/area/rnd/restroom)
-"Yh" = (/obj/structure/bed/chair/comfy/blue{dir = 4},/turf/simulated/floor/tiled/bright,/area/space)
 "Yp" = (/obj/structure/bed/chair/bunker/comfy{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "Yq" = (/turf/simulated/wall,/area/space)
 "Yt" = (/obj/structure/table/rack,/obj/item/clothing/suit/storage/hooded/wintercoat,/obj/item/clothing/suit/storage/hooded/wintercoat,/turf/simulated/floor/tiled/bright,/area/hallway/eva)
@@ -672,7 +627,6 @@
 "YL" = (/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/bright,/area/rnd/research)
 "YN" = (/obj/machinery/portable_atmospherics/canister/empty/air,/turf/simulated/floor/reinforced/airmix,/area/rnd/atmospherics)
 "YS" = (/obj/machinery/atmospherics/unary/vent_pump/on,/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/power/apc/high{dir = 8},/obj/structure/cable/pink{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled/dark,/area/rnd/server)
-"YX" = (/obj/structure/table/glass,/turf/simulated/floor/tiled/bright,/area/space)
 "Zd" = (/obj/structure/cable/pink{d2 = 8; dir = 2; icon_state = "0-8"},/obj/structure/cable/pink{d1 = 4; d2 = 8; dir = 2; icon_state = "4-8"},/obj/machinery/power/terminal{dir = 1},/turf/simulated/floor/tiled/bright,/area/maintenance/substation/research)
 "Zp" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/window/shuttle,/obj/structure/cable/pink{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/flora/pottedplant/thinbush,/turf/simulated/floor/tiled/dark,/area/escape/hall)
 "Zr" = (/obj/effect/floor_decal/corner/purple/diagonal,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/bright,/area/rnd/office)
@@ -749,39 +703,39 @@ pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMP
 pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPrwrwrwrwrwOnIqywmWrNlVGPIJPTlVmaSWywTIQsrhHzQsQsQrnjeKeKeKeKnmCqEcnEoioLySCqHQeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
 pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErVQVQVQVQOnHKywgFfZuquqtluquqRMkHywRVQstkHoSLQsktpVRFRFRFeKqhCqDwqAqTMmjnlubueKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
 pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPGtGtGtGtGtGtGtGtaVaVaVaVGkGkGkaXGkGkGkMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErVQVQVQVQOnHKywuWwPsplVQRlVPVBBABywRVQsuEHoPmQsktpVktktPiUhkXCqDwsMqTMajnlubfeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPGtVByiVBXupbCnGtNtgosxYHGkhLARqGkfwCGkMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNErVQVQVQVQOnHKywywywywKYHJKYywywywywRVQstkHoSLQsWkuSvcAKyogMyuSORwyCAABbxWXKbfeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPGtddddddllmsQZGtpupupupuPegrgriuxQwCGkMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNErVQVQVQVQOnBrBFoknlOnFGYLuXENOJMVtcRVwLfipXwLwLwLwLwLwLeKeKbUCqDwChHRTfaoluGpeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPGtQGQEQGSqUbwItIjIjIjIjIeXrXrXFVJJAdGkMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNaJaJaJaJaJOnOnOnNzHKOnCNWSJjENCWSgSgRVwLPbpydFEteoDouLwLOieKCqCqjVqRajqRJQlubfeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNNmNmNmNmNmNmNmNmNmNmNmGtsKsKsKdLaOsKGtpupupupuPewCwCIIgrjCGkMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNaJYtMKYtgNYtMKaJNzaLxgTvlaTvTIqmHTHTRXisQoQoQoQoQoapQowLOieKFABGCqCyIHCyQBCqCqeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmWgCrCrCrCrCrCrCrCrHAaVpupupuctpupupupupupupuPeFDFDIIFdfRGkMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNaJRgRgRgRgRguAaJcXOSOnImiXImENnNbmNNSpwLshQobNwLwLwLwLwLeKeKeKeKeKeKeKeKeKeKeKeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyaVnfpupuctpupupupupupupuPePePeAOGkGkGkMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNtNaJaJBVQARgPsaJWOWOWOWOWUPyWUHWHWHWHWwLwLuxQomQzFwLlKlKlKlKscKcKcxKlKlKlKlKscMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyaVXgpupuSCkzkzkzkzpupupupubkpuzdpupuaVMPMPMPMPMPMPMPMPMPtNtNtNtNtNtNtNaJTORgfqRgRghMWOWRhJnrNOPYjjHWGDaIWmyWWixvQomQoUwLlKlKlKlKsclKlKxKlKlKlKlKscMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyaVWXjItSRoZPZPZPZPnfpupuZLbsECzdpuZLaVMPMPMPMPMPMPMPMPtNtNtNtNtNtNtNtNaJBMRgfqRgRgBAWOCZbpwOjjyQWzqSUVDnDntVxUQoQoQoTdwLlKlKlKlKsclKlKxKlKlKlKlKscMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyaVpupupuegyqyqyqyqpupupuZLZPECzdpuZLaVMPMPMPMPMPMPMPtNtNtNtNtNtNtNtNtNaJdiXwfqRgXwDYWOUqivnrjjPYjjRUDnDnDnEeQoQoQoQoeBwLlKlKlKlKdhlKlKdhlKlKlKlKscMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyaVpupupuctpupupuMgMgMgpupuLWpuzdpupuaVaVxExExExExExExETiTiTiTiTiTiTiTiaJaJCMXcTRCMaJWOWOHOJnNOPYjjRUDnDnDnKnQoQoQoQoTlwLlKlKlKlKsclKlKxKlKlKlKlKscMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyOorfrfrfoCrfrfrfeNeNeNrfrfrfrfzdrfrfTwzonKnKnKhinKnKKCqinKblnKnWnKhinKnKZujjPYjjjjjjcGDzjjjjjjPYjjHWORPgeFKnQoHtHZQozgwLlKlKlKlKsclKlKxKlKlKlKlKscMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgOsUgUgUgUgUyOorfrfrfGAvDvDvDUMUMUMvDvDvDvDvYUIUItwLFNcNcNcNcNcNcpfhgJlNcNcnIpfRYRYRYHwWzaDWzWzWzaDeiWzWzWzmznGHWHWHWHWwLVUwLwLwLwLwLscscdhscsclKlKErErErErErErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyOorfrfrfzdrfrfrfqzqzqzrfrfrfrfrfrfrfLNzonKnKnKSTnKnKKCqiXMnKPGjUnKhlnKnKDHjjyZjjjjVqjjPYjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjDclKlKlKlKlKlKlKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyaVwapupuyDpupupuwFwFwFpupupupupupupuaVaVxExExExExExEPfTivaLBbqMFCLTiEvEvErNxYqlytPtPtPhGtPPAjjjjjjjjjjjjjjjjjjjjjjjjjjDclKlKlKlKlKlKlKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyaVpupupuYpkzkzkzkzpupupupuZPZPnfpuZLaVtNtNtNtNtNtNtNtNTiyVsNfFsNsNTiTiTiErkmYqlySlzeOxmerjtPjjjjjjjjVqjjjjjjjjjjjjjjjjDclKlKlKlKlKlKlKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyaVnfpuekZpZPZPZPZPnfpupupuZPYHpupuZLaVtNtNtNtNtNtNtNtNTiSHSHicRPXfTiVQVQErkmYqrHEiEiEiEiBYtPNOjjjjNQNQNQlKlKyvscscscErErXVMjErErYhlKlKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyaVCXKJjIdPyqyqyqyqpupupupuLWpupupuZLaVaVtNtNtNtNtNtNtNTiTiTiTiTiTiTiErErErkmYqcrEiEiEiEiZwtPjjjjnGNQNQNQqxlKlKjRjRjRscKdlKlKlKErYhlKlKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmKsUgUgUgUgUgUgUgUgUyaVCXKJjIaSpupupupupupupupupupupupupuzhaVtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNErkmYqlyxNEiEiEiEigmjjjjjjNQNQNQlKlKlKlKlKlKiiQIlKlKlKHPlKlKlKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmrTJTJTJTJTJTJTJTJTDAaVCXKJjIXxpubkpuOdpughghghghghpupupuULaVtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNErkmkmgWEipAvXpAVYtPjjjjjjlKODlKlKlKlKlKlKyvscrQmqlKlKHPlKlKlKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNNmNmNmNmNmNmNmNmNmNmNmqfqfqfcKVEqfqfqfqfqfwZwZwZwZwZpupupuaVaVtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNEryekmlylylylylylylyjjjjjjlKlKlKlKlKlKlKlKlKErpvlKlKlKHPlKlKlKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNtNtNtNtNtNtNtNqfgPuouoPCuoyhhkgeqfnfpupupupupuOdpuaVtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNErErkmkmkmkmkmkmkmNxlKlKlKQtQtQtlKlKlKlKlKlKErKdlKlKlKErsclKscErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNtNtNtNtNtNtNtNqfYAuouoEKoZsQfzLmqfxuEBeAzuaVaVaVaVaVtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNErErErErErErErErErlKlKlKErscscscsczXscDrlKErErErXVWAErpPlKlKErErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNtNtNtNtNtNqfGguouoKbsasajMsaqfaVaVaVaVaVtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNMPMPMPMPMPMPMPMPMPMPErKaKajRUPQtsclKlKYdHMNLlKlKlKlKlKlKNpErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNtNtNtNtNqfGguouoIosaFkjFmKqftNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNtNMPMPMPMPMPMPMPMPMPMPErjRlKlKlKlKsclKlKlKlKlKlKlKlKlKlKlKNpErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNtNtNqfwguouohaAlOBqymKqftNtNtNtNtNtNtNtNtNtNtNMPMPMPMPMPMPtNtNtNtNtNtNtNtNtNtNtNMPMPMPMPMPMPMPMPMPMPMPErcflKlKlKlKdhlKlKlKlKlKlKlKlKlKlKlKNpErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNqfwgEnAIhaAlOBmKmKqftNtNtNtNtNtNtNtNtNtNMPMPMPMPMPMPMPMPMPtNtNtNtNtNtNtNtNMPMPMPMPMPMPMPMPMPMPMPMPErjRlKlKlKlKsclKlKlKlKlKlKlKlKFIlKThErErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNqfqfqfqfntqfqfqfqfqftNtNtNtNtNtNtNtNtNtNMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNMPMPMPMPMPMPMPMPMPMPMPMPMPErgRjdoXBavsscHjHMNLlKlKlKlKlKtuYXmrErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNtNHqtNtNtNtNtNtNtNMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErErErErErErErErErErscDrlKscscErErErErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNtNtNMPtNtNtNtNtNMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErYhlKlKlKlKlKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNtNtNMPtNtNtNMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErYhlKlKsIsIlKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPtNMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErYhlKlKHLjBxaErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErYhlKlKsIUPRKErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
-pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErErErErErErErErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPGtVByiVBXupbCnGtNtgosxYHGkhLARqGkfwCGkMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErVQVQVQVQOnHKywywywywKYHJKYywywywywRVQstkHoSLQsWkuSvcAKyogMyuSORwyCAABbxWXKbfeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPGtddddddllmsQZGtpupupupuPegrgriuxQwCGkMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErVQVQVQVQOnBrBFoknlOnFGYLuXENOJMVtcRVwLfipXwLwLwLwLwLwLeKeKbUCqDwChHRTfaoluGpeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPGtQGQEQGSqUbwItIjIjIjIjIeXrXrXFVJJAdGkMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPaJaJaJaJaJOnOnOnNzHKOnCNWSJjENCWSgSgRVwLPbpydFEteoDouLwLOieKCqCqjVqRajqRJQlubfeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmNmNmNmNmNmNmNmNmNmNmGtsKsKsKdLaOsKGtpupupupuPewCwCIIgrjCGkMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPaJYtMKYtgNYtMKaJNzaLxgTvlaTvTIqmHTHTRXisQoQoQoQoQoapQowLOieKFABGCqCyIHCyQBCqCqeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmWgCrCrCrCrCrCrCrCrHAaVpupupuctpupupupupupupuPeFDFDIIFdfRGkMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPaJRgRgRgRgRguAaJcXOSOnImiXImENnNbmNNSpwLshQobNwLwLwLwLwLeKeKeKeKeKeKeKeKeKeKeKeKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyaVnfpupuctpupupupupupupuPePePeAOGkGkGkMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPaJaJBVQARgPsaJWOWOWOWOWUPyWUHWHWHWHWwLwLuxQomQzFwLMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyaVXgpupuSCkzkzkzkzpupupupubkpuzdpupuaVMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPaJTORgfqRgRghMWOWRhJnrNOPYjjHWGDaIWmyWWixvQomQoUwLMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyaVWXjItSRoZPZPZPZPnfpupuZLbsECzdpuZLaVMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPaJBMRgfqRgRgBAWOCZbpwOjjyQWzqSUVDnDntVxUQoQoQoTdwLMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyaVpupupuegyqyqyqyqpupupuZLZPECzdpuZLaVMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPaJdiXwfqRgXwDYWOUqivnrjjPYjjRUDnDnDnEeQoQoQoQoeBwLMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyaVpupupuctpupupuMgMgMgpupuLWpuzdpupuaVaVxExExExExExExErFrFrFrFrFrFrFrFaJaJCMXcTRCMaJWOWOHOJnNOPYjjRUDnDnDnKnQoQoQoQoTlwLMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyOorfrfrfoCrfrfrfeNeNeNrfrfrfrfzdrfrfTwzoIPIPIPhiIPIPKCqiIPblIPnWIPhiIPIPZujjPYjjjjjjcGDzjjjjjjPYjjHWORPgeFKnQoHtHZQozgwLMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgOsUgUgUgUgUyOorfrfrfGAvDvDvDUMUMUMvDvDvDvDvYUIUItwLFNcNcNcNcNcNcpfhgJlNcNcnIpfRYRYRYHwWzaDWzWzWzaDeiWzWzWzmznGHWHWHWHWwLVUwLwLwLwLwLMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyOorfrfrfzdrfrfrfqzqzqzrfrfrfrfrfrfrfLNzoIPIPIPSTIPIPKCqiXMIPPGjUIPhlIPIPDHjjyZjjjjVqjjPYjjjjjjjjjjjjjjjjjjjjjjTcTcTcTcTcMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyaVIxpupuyDpupupuwFwFwFpupupupupupupuaVaVxExExExExExEKwrFvaLBbqMFCLrFEvEvErNxYqlytPtPtPhGtPPAjjjjjjjjjjjjjjjjjjTcTcTcTcTcMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyaVpupupuYpkzkzkzkzpupupupuZPZPnfpuZLaVMPMPMPMPMPMPMPMPrFyVsNfFsNsNrFrFrFErkmYqlySlzeOxmerjtPjjjjjjjjVqjjjjjjjjTcTcTcTcTcMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyaVnfpuekZpZPZPZPZPnfpupupuZPYHpupuZLaVMPMPMPMPMPMPMPMPrFSHSHicRPXfrFVQVQErkmYqrHEiEiEiEiBYtPNOjjjjgJgJgJlKlKlKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyaVCXKJjIdPyqyqyqyqpupupupuLWpupupuZLaVaVMPMPMPMPMPMPMPrFrFrFrFrFrFrFErErErkmYqcrEiEiEiEiZwtPjjjjnGgJgJgJlKlKlKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmKsUgUgUgUgUgUgUgUgUyaVCXKJjIaSpupupupupupupupupupupupupuzhaVMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErkmYqlyxNEiEiEiEigmjjjjjjgJgJgJlKlKlKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmrTJTJTJTJTJTJTJTJTDAaVCXKJjIXxpubkpuOdpughghghghghpupupuULaVMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErkmkmgWEipAvXpAVYtPjjjjjjlKIllKlKlKlKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPNmNmNmNmNmNmNmNmNmNmNmqfqfqfcKVEqfqfqfqfqfwZwZwZwZwZpupupuaVaVMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPEryekmlylylylylylylyjjjjjjlKlKlKlKlKlKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPqfgPuouoPCuoyhhkgeqfnfpupupupupuOdpuaVMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErErkmkmkmkmkmkmkmNxlKlKlKlKlKlKlKlKlKMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPqfYAuouoEKoZsQfzLmqfxuEBeAzuaVaVaVaVaVMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPErErErErErErErErErMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPqfGguouoKbsasajMsaqfaVaVaVaVaVMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPqfGguouoIosaFkjFmKqfMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPqfwguouohaAlOBqymKqfMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPqfwgEnAIhaAlOBmKmKqfMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPqfqfqfqfntqfqfqfqfqfMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPHqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
+pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
 pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
 pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
 pamNmNmNmNmNBjBjBjBjBjvpvpvpvpvpQqQqQqQqQqMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPQqQqQqQqQqvpvpvpvpvpBjBjBjBjBjmNmNmNmNmNpa
