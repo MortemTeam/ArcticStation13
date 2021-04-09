@@ -1,6 +1,6 @@
 
 /datum/map/arctic
-	name = "Arctice"
+	name = "Arctic"
 	full_name = "Arctic Station"
 	path = "arctic"
 
@@ -10,9 +10,9 @@
 	admin_levels = list(2)
 	contact_levels = list(1,2)
 	player_levels = list(1)
-	accessible_z_levels = list() //Percentage of chance to get on this or that Z level as you drift through space.
+	accessible_z_levels = list("2" = 1) //Percentage of chance to get on this or that Z level as you drift through space.
 
-	allowed_spawns = list("Gateway")
+	allowed_spawns = list("Default", "Gateway")
 
 	station_name  = "M0R-T3M"
 	station_short = "Arcticum"
@@ -36,8 +36,5 @@
 
 	evac_controller_type = /datum/evacuation_controller/shuttle
 
-
 /datum/map/arctic/perform_map_generation()
-	new /datum/random_map/automata/cave_system(null,1,1,1,200, 200) // Create the mining Z-level.
-	new /datum/random_map/noise/ore(null,1,1,1,64, 64)
 	return 1

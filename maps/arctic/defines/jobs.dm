@@ -20,20 +20,6 @@
 		/datum/job/service/assistant,
 	)
 
-/datum/job
-	var/allowed_to_game = 0
-
-/get_job_datums()
-	var/list/occupations = list()
-	var/list/all_jobs = typesof(/datum/job)
-
-	for(var/A in all_jobs)
-		var/datum/job/job = new A()
-		if(job && job.allowed_to_game)
-			occupations += job
-
-	return occupations
-
 
 /* Command */
 
@@ -89,7 +75,7 @@
 
 /datum/job/command/chief_engineer
 	allowed_to_game = 1
-	title = "Шеф-инженер"
+	title = "Старший инженер"
 	department = "Engineering"
 	department_flag = COM|ENG
 	outfit_type = /decl/hierarchy/outfit/job/engineering/chief_engineer
@@ -124,7 +110,7 @@
 
 /datum/job/command/clown
 	allowed_to_game = 1
-	title = "Клоун"
+	title = "Актер"
 	department = "Service"
 	department_flag = COM|SRV
 	outfit_type = /decl/hierarchy/outfit/clown
@@ -157,7 +143,7 @@
 /datum/job/rnd/roboticist
 	allowed_to_game = 1
 
-	title = "Роботехник"
+	title = "Робототехник"
 	outfit_type = /decl/hierarchy/outfit/job/science/roboticist
 
 	equip(var/mob/living/carbon/human/H)
@@ -167,7 +153,7 @@
 /datum/job/rnd/scientist
 	allowed_to_game = 1
 
-	title = "Ученый"
+	title = "Научный сотрудник"
 	outfit_type = /decl/hierarchy/outfit/job/science/scientist
 
 	equip(var/mob/living/carbon/human/H)

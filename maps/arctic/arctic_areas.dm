@@ -110,13 +110,7 @@
 	name = "Medbay Maintenance"
 	icon_state = "maint_medbay"
 
-/area/maintenance/research_port
-	name = "Research Maintenance - Port"
-	icon_state = "maint_research_port"
 
-/area/maintenance/research_starboard
-	name = "Research Maintenance - Starboard"
-	icon_state = "maint_research_starboard"
 
 /area/maintenance/security_port
 	name = "Security Maintenance - Port"
@@ -215,9 +209,7 @@
 	name = "Central Primary Hallway"
 	icon_state = "hallC3"
 
-/area/hallway/secondary/exit
-	name = "Escape Shuttle Hallway"
-	icon_state = "escape"
+
 
 // Crew
 
@@ -471,17 +463,6 @@
 
 // Research
 
-/area/rnd/storage
-	name = "Toxins Storage"
-	icon_state = "toxstorage"
-
-area/rnd/test_area
-	name = "Toxins Test Area"
-	icon_state = "toxtest"
-
-/area/server
-	name = "Research Server Room"
-	icon_state = "server"
 
 //Storage
 
@@ -788,7 +769,6 @@ area/rnd/test_area
 	name = "Operating Theatre"
 	icon_state = "surgery"
 
-// Research
 /area/assembly/chargebay
 	name = "Mech Bay"
 	icon_state = "mechbay"
@@ -796,18 +776,6 @@ area/rnd/test_area
 /area/assembly/robotics
 	name = "Robotics Lab"
 	icon_state = "robotics"
-
-/area/rnd/lab
-	name = "Research Lab"
-	icon_state = "toxlab"
-
-/area/rnd/misc_lab
-	name = "Miscellaneous Research"
-	icon_state = "toxmisc"
-
-/area/rnd/research
-	name = "Research and Development"
-	icon_state = "research"
 
 // Misc
 /area/AIsattele
@@ -910,19 +878,3 @@ area/rnd/test_area
 	sound_env = SMALL_ENCLOSED
 
 //
-
-/area/blurry/Entered(var/mob/living/carbon/human/H)
-	H.eye_blurry += 5
-	H.bodytemperature = 250
-
-/area/eye_blind/Entered(var/mob/living/carbon/human/H)
-	H.eye_blind += 5
-	H.bodytemperature = 150
-
-/area/paralysis/Entered(var/mob/living/carbon/human/H)
-	H.SetParalysis(3)
-	H.bodytemperature = 75
-
-/area/colddead/Entered(var/mob/living/carbon/human/H)
-	H.SetParalysis(100)
-	H.bodytemperature = 0

@@ -1,0 +1,107 @@
+"bN" = (/obj/structure/window/shuttle,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"bR" = (/obj/structure/shuttle/engine/propulsion/burst/right,/turf/simulated/floor/plating,/area/shuttle/escape/centcom)
+"df" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"dM" = (/obj/structure/table/woodentable,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"fy" = (/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"gm" = (/obj/effect/shuttle_landmark/escape/centcom,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"gE" = (/obj/machinery/door/airlock/external/bolted{frequency = 1380; id_tag = "cencom_dock_hatch"},/turf/simulated/floor/plating,/area/space)
+"hL" = (/obj/structure/table/reinforced,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"je" = (/obj/effect/step_trigger/teleporter{teleport_x = 44; teleport_y = 44; teleport_z = 2},/turf/space/transit/north,/area/space)
+"li" = (/obj/machinery/door/airlock/command,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"mr" = (/obj/structure/bed/chair/comfy/brown,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"mK" = (/turf/simulated/floor/plating,/area/space)
+"pS" = (/obj/structure/bed/chair/bunker/comfy{dir = 1},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"qJ" = (/obj/structure/bed/chair{dir = 1},/obj/effect/floor_decal/industrial/hatch/red,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"rY" = (/obj/structure/table/woodentable,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"sj" = (/turf/simulated/floor/snow,/area/colddead)
+"sz" = (/turf/simulated/shuttle/wall,/area/shuttle/escape/centcom)
+"sJ" = (/turf/simulated/floor/beach/water/ocean,/area/space)
+"sP" = (/obj/structure/shuttle/engine/propulsion/burst,/turf/simulated/floor/plating,/area/shuttle/escape/centcom)
+"tV" = (/obj/effect/shuttle_landmark/escape/internim,/turf/space/transit/north,/area/shuttle/escape/transit)
+"uA" = (/obj/machinery/door/airlock/security,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"uZ" = (/obj/machinery/computer/shuttle_control{shuttle_tag = "Escape"},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"wM" = (/turf/simulated/mineral,/area/space)
+"wO" = (/obj/machinery/embedded_controller/radio/simple_docking_controller{frequency = 1380; id_tag = "centcom_dock"; pixel_x = -33; tag_door = "centcom_dock_hatch"},/turf/simulated/floor/tiled/bar,/area/space)
+"xd" = (/turf/simulated/wall/r_wall,/area/space)
+"xv" = (/obj/structure/table/reinforced,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"ys" = (/obj/structure/bed/chair/comfy/brown{dir = 4},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"zD" = (/obj/effect/wingrille_spawn/reinforced/crescent,/turf/simulated/floor/plating,/area/space)
+"BI" = (/obj/structure/table/reinforced,/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"El" = (/obj/structure/shuttle/engine/heater,/turf/simulated/floor/plating,/area/shuttle/escape/centcom)
+"Et" = (/turf/simulated/shuttle/wall/corner/dark/se,/area/shuttle/escape/centcom)
+"Ew" = (/turf/space/transit/north,/area/shuttle/escape/transit)
+"EM" = (/obj/effect/step_trigger/thrower{name = "thrower_throwdownside"; nostop = 1; tiles = 0},/turf/space/transit/north,/area/space)
+"Fz" = (/obj/structure/bed/chair/bunker/comfy,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"FE" = (/turf/simulated/floor/tiled/bar,/area/space)
+"FP" = (/turf/simulated/shuttle/wall/corner/dark/sw,/area/shuttle/escape/centcom)
+"Gm" = (/obj/structure/bed/chair/comfy/brown{dir = 8},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"HK" = (/obj/effect/step_trigger/teleporter{teleport_x = 44; teleport_y = 44; teleport_z = 2},/turf/space,/area/space)
+"Jd" = (/turf/space/transit/north,/area/space)
+"Jw" = (/turf/simulated/shuttle/wall/corner/dark/nw,/area/shuttle/escape/centcom)
+"Kp" = (/obj/structure/shuttle/engine/propulsion/burst/left,/turf/simulated/floor/plating,/area/shuttle/escape/centcom)
+"KU" = (/obj/structure/table/reinforced,/obj/machinery/light/spot,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"NA" = (/obj/structure/bed/chair{dir = 1},/obj/effect/floor_decal/industrial/hatch/red,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"Rv" = (/obj/structure/window/shuttle,/turf/simulated/floor/plating,/area/shuttle/escape/centcom)
+"SD" = (/turf/simulated/floor/snow,/area/eye_blind)
+"UK" = (/obj/machinery/door/airlock/external/bolted{frequency = 1380; id_tag = "escape_shutt_hatch"; name = "Escape Shuttle"},/turf/simulated/floor/plating,/area/shuttle/escape/centcom)
+"Vg" = (/turf/simulated/shuttle/wall/corner/dark/ne,/area/shuttle/escape/centcom)
+"VS" = (/obj/effect/floor_decal/industrial/hatch/red,/obj/structure/bed/chair{dir = 1},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"Wd" = (/obj/structure/bed/chair/bunker/comfy{dir = 4},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"Yq" = (/turf/space,/area/space)
+"Za" = (/obj/structure/table/reinforced,/obj/machinery/embedded_controller/radio/simple_docking_controller{frequency = 1380; id_tag = "escape_shuttle"; tag_door = "escape_shuttle_hatch"},/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"Zm" = (/obj/structure/closet/syndicate/nuclear,/turf/simulated/floor/tiled/bar,/area/space)
+"Zt" = (/obj/structure/table/reinforced,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"ZZ" = (/turf/simulated/floor/snow,/area/paralysis)
+
+(1,1,1) = {"
+jejejejejejejejejejejejejejejejejeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMwMwMwMwMwMwMwMwMwMwMwMwM
+jeJdJdJdJdJdJdJdJdJdJdJdJdJdJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjsjsjsjsjsjsjsjsjsjsjwM
+jeJdJdJdJdJdJdJdJdJdJdJdJdJdJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjZZZZZZZZZZZZZZZZZZsjwM
+jeJdJdEMEMEMEMEMEMEMEMEMEMEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjZZZZZZZZZZZZZZZZZZsjwM
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjZZZZZZZZZZZZZZZZZZsjwM
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjZZZZZZSDSDSDZZZZZZsjwM
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjZZZZZZSDSDSDZZZZZZsjwM
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjZZZZZZSDSDSDZZZZZZsjwM
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjZZZZZZZZZZZZZZZZZZsjwM
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjZZZZZZZZZZZZZZZZZZsjwM
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjZZZZZZZZZZZZZZZZZZsjwM
+jeJdJdEMEwEwEwEwtVEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMsjsjsjsjsjsjsjsjsjsjsjwM
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqwMwMwMwMwMwMwMwMwMwMwMwMwM
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+jeJdJdEMEwEwEwEwEwEwEwEwEwEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+jeJdJdEMEMEMEMEMEMEMEMEMEMEMJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+jeJdJdJdJdJdJdJdJdJdJdJdJdJdJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+jeJdJdJdJdJdJdJdJdJdJdJdJdJdJdJdjeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+jejejejejejejejejejejejejejejejejeYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+YqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
+HKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHK
+HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqJwRvRvRvRvRvRvRvVgYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqRvrYmrBIuZZamrdMRvYqYqxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqRvysfyfyfyfyfyGmRvYqYqxdZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmxdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqRvhLxvGmfyysKUZtRvYqYqxdFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFExdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqszbNbNbNlibNbNbNszYqYqxdFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFExdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqRvrYFzFzfyFzFzFzszzDzDxdwOFEsJsJsJsJsJsJsJsJsJsJsJsJFEFExdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqRvWdfyfyfyfyfyfyUKmKmKgEFEFEsJsJsJsJsJsJsJsJsJsJsJsJFEFExdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqRvWdfyfygmfyfyfyUKmKmKgEFEFEsJsJsJsJsJsJsJsJsJsJsJsJFEFExdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqRvrYpSfyfyfyfyfyUKmKmKgEFEFEsJsJsJsJsJsJsJsJsJsJsJsJFEFExdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqszszszuAbNbNbNbNszzDzDxdFEFEsJsJsJsJsJsJsJsJsJsJsJsJFEFExdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqRvWdfyfyfyfyfydfszYqYqxdFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFExdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqRvrYpSpSqJNAVSNAszYqYqxdFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFExdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqszszszszszszszszszYqYqxdZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmxdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqszElElElElElElElszYqYqxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdxdYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqFPKpKpsPsPsPbRbREtYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHKHK
+"}

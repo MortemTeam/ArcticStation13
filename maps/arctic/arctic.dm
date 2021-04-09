@@ -10,14 +10,27 @@
 	#include "../shared/items/cards_ids.dm"
 	#include "../shared/items/clothing.dm"
 
-	#include "job/jobs.dm"
-	#include "browser/browser.dm"
+	//OVERLOAD
+	#include "overload/outfit.dm"
+	#include "overload/jobs.dm"
+	#include "overload/browser.dm"
+	#include "overload/mob.dm"
+
+	//DEFINES
+	#include "defines/jobs.dm"
+	#include "defines/shuttles.dm"
+	#include "defines/clothing/voidsuit.dm"
+	#include "defines/areas/research.dm"
+	#include "defines/areas/special.dm"
+	#include "defines/areas/hallway.dm"
+	#include "defines/areas/escape.dm"
 
 	#include "arctic_gamemodes.dm"
 	#include "arctic_presets.dm"
 	#include "arctic_shuttles.dm"
 
 	#include "arctic-1.dmm"
+	#include "arctic-2.dmm"
 
 	#include "../../code/modules/lobby_music/generic_songs.dm"
 
