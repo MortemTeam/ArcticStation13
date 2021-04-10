@@ -30,8 +30,5 @@
 	initial_gas = list("nitrogen" = ATMOSTANK_NITROGEN * 0.84, "hydrogen" = ATMOSTANK_NITROGEN * 0.16)
 	temperature = 50
 
-/area
-	base_turf = /turf/simulated/floor/plating
-
 /area/space
 	has_gravity = 1

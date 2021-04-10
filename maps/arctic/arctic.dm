@@ -11,12 +11,14 @@
 	#include "../shared/items/clothing.dm"
 
 	//OVERLOAD
+	#include "overload/erppanel.dm"
 	#include "overload/outfit.dm"
 	#include "overload/jobs.dm"
 	#include "overload/browser.dm"
 	#include "overload/mob.dm"
 
 	//DEFINES
+	#include "defines/ambient_occlusion.dm"
 	#include "defines/jobs.dm"
 	#include "defines/shuttles.dm"
 	#include "defines/clothing/voidsuit.dm"
@@ -24,6 +26,7 @@
 	#include "defines/areas/special.dm"
 	#include "defines/areas/hallway.dm"
 	#include "defines/areas/escape.dm"
+	#include "defines/areas/service.dm"
 
 	#include "arctic_gamemodes.dm"
 	#include "arctic_presets.dm"

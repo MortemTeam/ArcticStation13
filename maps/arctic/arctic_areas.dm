@@ -1,6 +1,6 @@
 /datum/map/alpha
 	post_round_safe_areas = list (
-		/area/shuttle/escape,
+		/area/shuttle/escape/centcom,
 		/area/shuttle/escape/station,
 		/area/shuttle/escape/transit,
 	)

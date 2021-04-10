@@ -3,10 +3,6 @@
 	name = "EVA Hall"
 	icon_state = "maint_eva"
 
-/area/hallway/cafeteria
-	name = "Cafeteria"
-	icon_state = "cafeteria"
-
 /area/hallway/exit
 	name = "Escape Shuttle Hallway"
 	icon_state = "escape"
