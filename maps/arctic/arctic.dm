@@ -18,6 +18,7 @@
 	#include "overload/mob.dm"
 
 	//DEFINES
+	#include "defines/jivin.dm"
 	#include "defines/ambient_occlusion.dm"
 	#include "defines/jobs.dm"
 	#include "defines/shuttles.dm"
