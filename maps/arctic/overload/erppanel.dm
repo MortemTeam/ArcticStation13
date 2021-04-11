@@ -72,12 +72,12 @@
 	var/mob/living/carbon/human/P = H.partner
 	var/obj/item/organ/external/temp = H.organs_by_name[BP_R_HAND]
 	var/hashands = (temp && temp.is_usable())
-	if(!hashands)
+	if (!hashands)
 		temp = H.organs_by_name[BP_L_HAND]
 		hashands = (temp && temp.is_usable())
 	temp = P.organs_by_name[BP_R_HAND]
 	var/hashands_p = (temp && temp.is_usable())
-	if(!hashands_p)
+	if (!hashands_p)
 		temp = P.organs_by_name[BP_L_HAND]
 		hashands = (temp && temp.is_usable())
 	var/mouthfree = !(H.wear_mask)
@@ -94,43 +94,49 @@
 	H.lfhole = ""
 
 	var/dat = "<B><HR><FONT size=3>INTERACTIONS - [H.partner]</FONT></B><BR><HR>"
+	//var/ya = "&#1103;"
 
 	if(hashands)
-		dat +=  {"<font size=3><B>Hands:</B></font><BR>"}
-		if(Adjacent(P))
-			dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=hug'>Hug!</A><BR>"}
-			if(isnude_p)
-				if(hasanus_p)
+		if(H.partner.age >= 16)
+			if(H.partner.species.name == "Human")
+				dat +=  {"<font size=3><B>Hands:</B></font><BR>"}
+				if(Adjacent(P))
+					dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=hug'>Hug!</A><BR>"}
 					dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=assslap'><font color=purple>Slap some ass!</font></A><BR>"}
 
-				if(hasvagina_p && (!P.mutilated_genitals))
-					dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=fingering'><font color=purple>Put fingers in places...</font></A><BR>"}
+					if(isnude_p)
+						if(hasvagina_p && (!P.mutilated_genitals))
+							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=fingering'><font color=purple>Put fingers in places...</font></A><BR>"}
 
 	if(mouthfree && (lying == P.lying || !lying))
-		dat += {"<font size=3><B>Mouth:</B></font><BR>"}
-		if(Adjacent(P))
-			if(isnude_p && (!P.mutilated_genitals))
-				if(haspenis_p)
-					dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=blowjob'><font color=purple>Give head.</font></A><BR>"}
-				if(hasvagina_p)
-					dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=vaglick'><font color=purple>Lick pussy.</font></A><BR>"}
-				if(hasanus_p)
-					dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=asslick'><font color=purple>Lick ass.</font></A><BR>"}
+		if(H.partner.age >= 16)
+			if(H.partner.species.name == "Human")
+				dat += {"<font size=3><B>Mouth:</B></font><BR>"}
+				if(Adjacent(P))
+					if(isnude_p && (!P.mutilated_genitals))
+						if(haspenis_p)
+							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=blowjob'><font color=purple>Give head.</font></A><BR>"}
+						if(hasvagina_p)
+							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=vaglick'><font color=purple>Lick pussy.</font></A><BR>"}
+						if(hasanus_p)
+							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=asslick'><font color=purple>Lick ass.</font></A><BR>"}
 
 	if(isnude && usr.loc == H.partner.loc)
-		if(haspenis && hashands)
-			dat += {"<font size=3><B>MISTAKES WILL BE MADE:</B></font><BR>"}
-		if(isnude_p)
-			if(hasvagina_p && (!P.mutilated_genitals))
-				dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=vaginal'><font color=purple>Fuck vagina.</font></A><BR>"}
-			if(hasanus_p)
-				dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=anal'><font color=purple>Fuck ass.</font></A><BR>"}
-			if(mouthfree_p)
-				dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=oral'><font color=purple>Fuck mouth.</font></A><BR>"}
-		if(hashands)
-			if(hasvagina && haspenis_p && (!H.mutilated_genitals))
-				dat += {"<font size=3><B>Vagina:</B></font><BR>"}
-				dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=mount'><font color=purple>Mount!</font></A><BR><HR>"}
+		if(H.partner.age >= 16)
+			if(H.partner.species.name == "Human")
+				if(haspenis && hashands)
+					dat += {"<font size=3><B>MISTAKES WILL BE MADE:</B></font><BR>"}
+					if(isnude_p)
+						if(hasvagina_p && (!P.mutilated_genitals))
+							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=vaginal'><font color=purple>Fuck vagina.</font></A><BR>"}
+						if(hasanus_p)
+							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=anal'><font color=purple>Fuck ass.</font></A><BR>"}
+						if(mouthfree_p)
+							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=oral'><font color=purple>Fuck mouth.</font></A><BR>"}
+				if(isnude && usr.loc == H.partner.loc && hashands)
+					if(hasvagina && haspenis_p && (!H.mutilated_genitals))
+						dat += {"<font size=3><B>Vagina:</B></font><BR>"}
+						dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=mount'><font color=purple>Mount!</font></A><BR><HR>"}
 
 	var/datum/browser/popup = new(usr, "interactions", "Interactions", 340, 480)
 	popup.set_content(dat)
@@ -138,21 +144,22 @@
 
 /mob/living/carbon/human/Topic(href, list/href_list)
 	..()
-	to_world(href_list)
 	var/mob/living/carbon/human/P = locate(href_list["holder"])
+	if(stat || get_dist(src, P) > 1)
+		return
 
+	erpcooldown += 1
 	var/arg = href_list["interaction"]
 	if(arg in list("vaglick", "fingering", "blowjob", "vaginal", "anal", "oral", "mount"))
 		fuck(src, P, arg)
 
 	else
 		if(arg == "hug")
-			src.visible_message("<B>[src] hug [P]!</B")
-			P.lust += 2
+			visible_message("<B>[src] hug [P]!</B")
 			playsound(loc, "sound/erp/hug.ogg", 70, 1, -1)
 
 		if(arg == "assslap")
-			src.visible_message("<font color=purple><B>[src] slap [P]'s ass!</B></font>")
+			visible_message("<font color=purple><B>[src] slap [P]'s ass!</B></font>")
 			P.lust += 5
 			playsound(loc, "sound/erp/slap.ogg", 70, 1, -1)
 
@@ -172,11 +179,14 @@
 	var/lust = 0
 	var/multiorgasms = 0
 	var/lastmoan
-	var/erpcooldown = 1
+	var/erpcooldown = 0
 	mutilated_genitals = 0 //Whether or not they can do the fug.
 	var/virgin = FALSE //:mistake:
 
 /mob/living/carbon/human/proc/cum(mob/living/carbon/human/H as mob, mob/living/carbon/human/P as mob, var/hole = "floor")
+	if(P.stat)
+		return
+
 	var/message = ""
 	var/turf/T
 
@@ -230,19 +240,18 @@
 
 	H.druggy = 3
 	H.multiorgasms += 1
-	H.erpcooldown += 10
 	if(H.multiorgasms > H.potenzia / 3)
 		if(H.staminaloss < P.potenzia * 4)
 			H.staminaloss += H.potenzia
 	if(H.staminaloss > 100)
 		H.druggy = 20
-		H.erpcooldown = 200
 	GLOB.total_orgasms++
 	H.add_event("came", /datum/happiness_event/high)
 
 mob/living/carbon/human/proc/fuck(mob/living/carbon/human/H as mob, mob/living/carbon/human/P as mob, var/hole)
-	if(erpcooldown > 3)
+	if(erpcooldown > 2)
 		return
+
 	var/message = ""
 	H.adjustStaminaLoss(2)
 
@@ -479,8 +488,8 @@ mob/living/carbon/human/proc/fuck(mob/living/carbon/human/H as mob, mob/living/c
 		lastfucked = null
 		lfhole = ""
 		multiorgasms = 0
-	if(erpcooldown)
-		erpcooldown -= 1
+
+	erpcooldown = 0
 
 /mob/living/carbon/human/proc/do_fucking_animation(mob/living/carbon/human/P)
 	var/pixel_x_diff = 0
