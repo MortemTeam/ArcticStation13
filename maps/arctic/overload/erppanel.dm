@@ -60,7 +60,8 @@
 	if(!w_uniform)
 		if(wear_suit)
 			if(istype(wear_suit, /obj/item/clothing/suit/storage/toggle))
-				return wear_suit.icon_state == wear_suit.icon_open
+				var/obj/item/clothing/suit/storage/toggle/T = wear_suit
+				return T.icon_state == T.icon_open
 			return FALSE
 		return TRUE
 
@@ -203,7 +204,7 @@
 				holder.add_reagent("semen", amt)
 				holder.trans_to_mob(P, amt, CHEM_INGEST)
 
-			else (hole == "vagina")
+			else if(hole == "vagina")
 				message = pick("cums in [P]'s pussy.")
 
 			else if(hole == "anus")
@@ -470,7 +471,6 @@ mob/living/carbon/human/proc/fuck(mob/living/carbon/human/H as mob, mob/living/c
 				else if(g == "f")
 					playsound(loc, "sound/erp/under_moan_f[rand(1, 4)].ogg", 70, 1, 1)
 				lastmoan = moan
-
 
 /mob/living/carbon/human/proc/handle_lust()
 	if(lust)
