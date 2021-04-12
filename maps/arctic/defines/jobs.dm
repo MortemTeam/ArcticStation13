@@ -7,10 +7,10 @@
 		/datum/job/command/head_of_security,
 		/datum/job/security/officer,
 
-		/datum/job/command/chief_engineer,
+		/datum/job/command/chief_personel,
+
 		/datum/job/engineering/engineer,
 
-		/datum/job/command/medical_manager,
 		/datum/job/medical/doctor,
 		/datum/job/medical/surgeon,
 		/datum/job/medical/chemist,
@@ -73,12 +73,12 @@
 		H.generate_stats(list(STAT_ST, STAT_DX, STAT_HT))
 		H.generate_skills(list("melee", "ranged"))
 
-/datum/job/command/chief_engineer
+/datum/job/command/chief_personel
 	allowed_to_game = 1
-	title = "Старший инженер"
-	department = "Engineering"
-	department_flag = COM|ENG
-	outfit_type = /decl/hierarchy/outfit/job/engineering/chief_engineer
+	title = "Старший по персоналу"
+	department = "Service"
+	department_flag = COM|SRV
+	outfit_type = /decl/hierarchy/outfit/job/hop
 
 	access = list(
 		access_engine, access_engine_equip, access_tech_storage, access_maint_tunnels,
@@ -88,11 +88,10 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.generate_stats(list(STAT_ST, STAT_DX, STAT_HT))
-		H.generate_skills(list("melee", "engineering", "crafting"))
+		H.generate_stats(list(STAT_IQ))
 
 /datum/job/command/medical_manager
-	allowed_to_game = 1
+	allowed_to_game = 0
 	title = "Менеджер медицинского персонала"
 	department = "Medical"
 	department_flag = COM|MED
@@ -279,8 +278,6 @@
 	allowed_to_game = 1
 
 	title = "Уборщик"
-	total_positions = 2
-	spawn_positions = 2
 	access = list(
 		access_janitor, access_maint_tunnels, access_engine, access_eva,
 		access_research, access_sec_doors, access_medical)
@@ -289,6 +286,18 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.generate_skills(list("cleaning"))
+
+/datum/job/command/clown
+	allowed_to_game = 1
+
+	title = "Актер"
+	total_positions = 1
+	spawn_positions = 1
+	outfit_type = /decl/hierarchy/outfit/clown
+
+	access = list(
+		access_heads, access_RC_announce, access_external_airlocks, access_janitor,
+		access_keycard_auth, access_sec_doors, access_eva, access_maint_tunnels)
 
 /* Silicon */
 
