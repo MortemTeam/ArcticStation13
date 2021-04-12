@@ -1,7 +1,5 @@
-/obj/item/organ/internal/brain
-	max_damage = 100
+/datum/species/human
+	total_health = 100
 
-/datum/species/proc/get_random_name(var/gender)
-	if(gender == FEMALE)
-		return "ebletrap"
-	return "eblecun"
+/datum/species/get_random_name(var/gender)
+	return "eblekukla"
