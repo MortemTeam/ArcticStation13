@@ -147,7 +147,7 @@
 
 	erpcooldown += 1
 	var/arg = href_list["interaction"]
-	if(arg in list("vaglick", "fingering", "blowjob", "vaginal", "anal", "oral", "mount") && !P.is_nude())
+	if(arg in list("vaglick", "fingering", "blowjob", "vaginal", "anal", "oral", "mount") && P.is_nude())
 		fuck(src, P, arg)
 
 	else
@@ -156,7 +156,7 @@
 			P.lust += 1
 			playsound(loc, "sound/erp/hug.ogg", 70, 1, -1)
 
-		if(arg == "assslap" && !P.is_nude())
+		if(arg == "assslap" && P.is_nude())
 			visible_message("<font color=purple><B>[src] slap [P]'s ass!</B></font>")
 			P.lust += 5
 			playsound(loc, "sound/erp/slap.ogg", 70, 1, -1)
