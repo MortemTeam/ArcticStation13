@@ -554,7 +554,7 @@ mob/living/carbon/human/proc/fuck(mob/living/carbon/human/H as mob, mob/living/c
 	var/message = ""
 
 	if(istype(M, /mob/living/carbon/human) && user.zone_sel.selecting == "groin" && M.is_nude())
-		user.adjustStaminaLoss(5)
+		user.adjustStaminaLoss(10)
 		if(hole == "vagina" && hasvagina)
 			if(user == M)
 				message = pick("fucks their own pussy")//, "çàòàëêèâàåò â ñåá[ya] [rus_name]", "ïîãðóæàåò [rus_name] â ñâîå ëîíî")
@@ -568,11 +568,6 @@ mob/living/carbon/human/proc/fuck(mob/living/carbon/human/H as mob, mob/living/c
 			else if(M.stat != DEAD && M.stat != UNCONSCIOUS)
 				user.visible_message("<font color=purple>[user] [message].</font>")
 				M.lust += pleasure
-
-			if(M.lust >= M.resistenza)
-				M.cum(M, user, "floor")
-			else
-				M.moan()
 
 			user.do_fucking_animation(M)
 			playsound(loc, "sound/erp/bang[rand(4, 6)].ogg", 70, 1, -1)
@@ -590,11 +585,6 @@ mob/living/carbon/human/proc/fuck(mob/living/carbon/human/H as mob, mob/living/c
 			else if(M.stat != DEAD && M.stat != UNCONSCIOUS)
 				user.visible_message("<font color=purple>[user] [message].</font>")
 				M.lust += pleasure
-
-			if(M.lust >= M.resistenza)
-				M.cum(M, user, "floor")
-			else
-				M.moan()
 
 			user.do_fucking_animation(M)
 			playsound(loc, "sound/erp/bang[rand(4, 6)].ogg", 70, 1, -1)
