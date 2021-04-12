@@ -1,9 +1,4 @@
 #if !defined(using_map_DATUM)
-
-	#include "arctic_announcements.dm"
-	#include "arctic_areas.dm"
-
-
 	//CONTENT
 	#include "../shared/job/jobs.dm"
 	#include "../shared/datums/uniforms.dm"
@@ -14,8 +9,15 @@
 	#include "overload/erppanel.dm"
 	#include "overload/outfit.dm"
 	#include "overload/jobs.dm"
-	#include "overload/browser.dm"
 	#include "overload/mob.dm"
+
+	//ANTAGONISTS
+	#include "overload/antagonists/traitor.dm"
+
+	//FIX BROWSER
+	#include "overload/fix_browsers/browser.dm"
+	#include "overload/fix_browsers/strip.dm"
+	#include "overload/fix_browsers/notes.dm"
 
 	//DEFINES
 	#include "defines/jivin.dm"
@@ -23,12 +25,17 @@
 	#include "defines/jobs.dm"
 	#include "defines/shuttles.dm"
 	#include "defines/clothing/voidsuit.dm"
+
+	//AREAS
 	#include "defines/areas/research.dm"
 	#include "defines/areas/special.dm"
 	#include "defines/areas/hallway.dm"
 	#include "defines/areas/escape.dm"
 	#include "defines/areas/service.dm"
 
+	//SYSTEM
+	#include "arctic_announcements.dm"
+	#include "arctic_areas.dm"
 	#include "arctic_gamemodes.dm"
 	#include "arctic_presets.dm"
 	#include "arctic_shuttles.dm"
