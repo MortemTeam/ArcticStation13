@@ -102,9 +102,9 @@
 				dat +=  {"<font size=3><B>Hands:</B></font><BR>"}
 				if(Adjacent(P))
 					dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=hug'>Hug!</A><BR>"}
-					dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=assslap'><font color=red>Slap some ass!</font></A><BR>"}
-
 					if(isnude_p)
+						if(hasanus_p)
+							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=assslap'><font color=red>Slap some ass!</font></A><BR>"}
 						if(hasvagina_p && (!P.mutilated_genitals))
 							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=fingering'><font color=red>Put fingers in places...</font></A><BR>"}
 
@@ -147,9 +147,9 @@
 
 	erpcooldown += 1
 	var/arg = href_list["interaction"]
-	if(arg in list("vaglick", "fingering", "blowjob", "vaginal", "anal", "oral", "mount") && P.is_nude())
-		fuck(src, P, arg)
-
+	if(arg in list("vaglick", "fingering", "blowjob", "vaginal", "anal", "oral", "mount"))
+		if(P.is_nude())
+			fuck(src, P, arg)
 	else
 		if(arg == "hug")
 			visible_message("<B>[src] hug [P]!</B")
