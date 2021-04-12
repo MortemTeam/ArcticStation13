@@ -142,12 +142,12 @@
 /mob/living/carbon/human/Topic(href, list/href_list)
 	..()
 	var/mob/living/carbon/human/P = locate(href_list["holder"])
-	if(stat || get_dist(src, P) > 1 || !P.is_nude())
+	if(stat || get_dist(src, P) > 1)
 		return
 
 	erpcooldown += 1
 	var/arg = href_list["interaction"]
-	if(arg in list("vaglick", "fingering", "blowjob", "vaginal", "anal", "oral", "mount"))
+	if(arg in list("vaglick", "fingering", "blowjob", "vaginal", "anal", "oral", "mount") && !P.is_nude())
 		fuck(src, P, arg)
 
 	else
@@ -156,7 +156,7 @@
 			P.lust += 1
 			playsound(loc, "sound/erp/hug.ogg", 70, 1, -1)
 
-		if(arg == "assslap")
+		if(arg == "assslap" && !P.is_nude())
 			visible_message("<font color=purple><B>[src] slap [P]'s ass!</B></font>")
 			P.lust += 5
 			playsound(loc, "sound/erp/slap.ogg", 70, 1, -1)
