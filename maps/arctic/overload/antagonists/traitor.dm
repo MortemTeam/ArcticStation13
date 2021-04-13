@@ -72,16 +72,19 @@
 
 //SETUP EMPLOYER
 
-/datum/uplink_category/special
-	name = "Special"
+/datum/uplink_category/faction
+	var/faction
+	can_view(obj/item/device/uplink/U)
+		if(U.uplink_owner.employer != faction)
+			return
+
+		for(var/datum/uplink_item/item in items)
+			if(item.can_view(U))
+				return 1
 
 /datum/employer
 	var/name
-	var/color = "red"
-	var/list/item_restrict = list()
-	var/list/item_append = list()
-	var/list/item_price_overload = list()
-
+	var/color
 	proc/show_info()
 		return "Your employer is <font color=[color]><B>[name]</B></font>"
 
@@ -103,6 +106,9 @@
 
 //SETUP ANTAG
 
+/datum/mind
+	var/datum/employer/employer
+
 /datum/antagonist/traitor
 	id = MODE_TRAITOR
 	protected_jobs = list(
@@ -118,19 +124,17 @@
 	initial_spawn_req = 1
 	initial_spawn_target = 3
 
-	var/datum/employer/employer
-
 /datum/antagonist/traitor/create_objectives(var/datum/mind/traitor)
-	employer = pick(list(
+	var/employer = pick(list(
 		/datum/employer/yakuza,
 		/datum/employer/comintern,
 		/datum/employer/nanotrusten,
 		/datum/employer/third_reich,
 	))
 
-	employer = new employer
+	traitor.employer = new employer
 
-	traitor.store_memory("<HR>[employer.show_info()]")
+	traitor.store_memory("<HR>[traitor.employer.show_info()]")
 
 	if(prob(50))
 		var/datum/objective/assassinate/A = new
@@ -154,7 +158,4 @@
 	traitor.objectives += E
 
 /datum/antagonist/traitor/give_intel(mob/living/traitor_mob)
-	to_chat(traitor_mob, employer.show_info())
-
-/datum/antagonist/traitor/spawn_uplink(var/mob/living/carbon/human/traitor_mob)
-	setup_uplink_source(traitor_mob, DEFAULT_TELECRYSTAL_AMOUNT)
+	to_chat(traitor_mob, traitor_mob.mind.employer.show_info())

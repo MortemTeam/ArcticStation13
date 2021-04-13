@@ -13,6 +13,10 @@
 
 	//ANTAGONISTS
 	#include "overload/antagonists/traitor.dm"
+	#include "overload/antagonists/arsenal/comintern.dm"
+	#include "overload/antagonists/arsenal/nanotrusten.dm"
+	#include "overload/antagonists/arsenal/third_reich.dm"
+	#include "overload/antagonists/arsenal/yakuza.dm"
 
 	//FIX BROWSER
 	#include "overload/fix_browsers/browser.dm"
