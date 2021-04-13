@@ -88,8 +88,8 @@
 	proc/show_info()
 		return "Your employer is <font color=[color]><B>[name]</B></font>"
 
-/datum/employer/yakuza
-	name = "Yakuza"
+/datum/employer/black_spider
+	name = "Black Spider"
 	color = "pink"
 
 /datum/employer/comintern
@@ -126,7 +126,7 @@
 
 /datum/antagonist/traitor/create_objectives(var/datum/mind/traitor)
 	var/employer = pick(list(
-		/datum/employer/yakuza,
+		/datum/employer/black_spider,
 		/datum/employer/comintern,
 		/datum/employer/nanotrusten,
 		/datum/employer/third_reich,
