@@ -29,6 +29,7 @@
 	#include "defines/jobs.dm"
 	#include "defines/shuttles.dm"
 	#include "defines/clothing/voidsuit.dm"
+	#include "defines/lobby_music.dm"
 
 	//AREAS
 	#include "defines/areas/research.dm"
