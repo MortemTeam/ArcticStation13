@@ -16,11 +16,11 @@
 	strength = 25
 	target_organ = BP_BRAIN
 
-/datum/chemical_reaction/clonexadone
+/datum/chemical_reaction/cryoxadone
 	required_reagents = list(
-		/datum/reagent/cryoxadone = 1,
-		/datum/reagent/sodium = 1,
+		/datum/reagent/dexalin = 1,
 		/datum/reagent/toxin/cyanide/living_matter = 1,
+		/datum/reagent/acetone = 1
 	)
 
 /datum/chemical_reaction/alkysine
