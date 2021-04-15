@@ -6,6 +6,7 @@
 	#include "../shared/items/clothing.dm"
 
 	//OVERLOAD
+	#include "overload/crystalheater.dm"
 	#include "overload/erppanel.dm"
 	#include "overload/outfit.dm"
 	#include "overload/jobs.dm"
@@ -13,10 +14,11 @@
 
 	//ANTAGONISTS
 	#include "overload/antagonists/traitor.dm"
+	#include "overload/antagonists/mutant.dm"
 	#include "overload/antagonists/arsenal/comintern.dm"
 	#include "overload/antagonists/arsenal/nanotrusten.dm"
 	#include "overload/antagonists/arsenal/third_reich.dm"
-	#include "overload/antagonists/arsenal/yakuza.dm"
+	#include "overload/antagonists/arsenal/spider.dm"
 
 	//FIX BROWSER
 	#include "overload/fix_browsers/browser.dm"

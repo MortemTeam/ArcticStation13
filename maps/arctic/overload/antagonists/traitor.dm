@@ -75,7 +75,7 @@
 /datum/uplink_category/faction
 	var/faction
 	can_view(obj/item/device/uplink/U)
-		if(U.uplink_owner.employer != faction)
+		if(!U.uplink_owner || (U.uplink_owner.employer != faction))
 			return
 
 		for(var/datum/uplink_item/item in items)
@@ -88,8 +88,8 @@
 	proc/show_info()
 		return "Your employer is <font color=[color]><B>[name]</B></font>"
 
-/datum/employer/black_spider
-	name = "Black Spider"
+/datum/employer/spider
+	name = "Spider"
 	color = "pink"
 
 /datum/employer/comintern
@@ -126,7 +126,7 @@
 
 /datum/antagonist/traitor/create_objectives(var/datum/mind/traitor)
 	var/employer = pick(list(
-		/datum/employer/black_spider,
+		/datum/employer/spider,
 		/datum/employer/comintern,
 		/datum/employer/nanotrusten,
 		/datum/employer/third_reich,
