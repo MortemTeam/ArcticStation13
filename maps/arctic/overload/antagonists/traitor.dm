@@ -73,14 +73,11 @@
 //SETUP EMPLOYER
 
 /datum/uplink_category/faction
-	var/faction
 	can_view(obj/item/device/uplink/U)
-		if(!U.uplink_owner || (U.uplink_owner.employer != faction))
+		if(!U.uplink_owner || (U.uplink_owner.employer.name != name))
 			return
 
-		for(var/datum/uplink_item/item in items)
-			if(item.can_view(U))
-				return 1
+		return 1
 
 /datum/employer
 	var/name
