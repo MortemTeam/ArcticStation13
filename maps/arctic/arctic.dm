@@ -13,12 +13,13 @@
 	#include "overload/mob.dm"
 
 	//ANTAGONISTS
-	#include "overload/antagonists/traitor.dm"
-	#include "overload/antagonists/mutant.dm"
-	#include "overload/antagonists/arsenal/comintern.dm"
-	#include "overload/antagonists/arsenal/nanotrusten.dm"
-	#include "overload/antagonists/arsenal/third_reich.dm"
-	#include "overload/antagonists/arsenal/spider.dm"
+	#include "overload/antagonists/traitor/traitor.dm"
+	#include "overload/antagonists/traitor/arsenal/comintern.dm"
+	#include "overload/antagonists/traitor/arsenal/nanotrusten.dm"
+	#include "overload/antagonists/traitor/arsenal/third_reich.dm"
+	#include "overload/antagonists/traitor/arsenal/spider.dm"
+
+	#include "overload/antagonists/mutant/mutant.dm"
 
 	//FIX BROWSER
 	#include "overload/fix_browsers/browser.dm"

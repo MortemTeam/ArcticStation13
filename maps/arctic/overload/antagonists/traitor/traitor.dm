@@ -107,7 +107,6 @@
 	var/datum/employer/employer
 
 /datum/antagonist/traitor
-	id = MODE_TRAITOR
 	protected_jobs = list(
 		/datum/job/command/research_director,
 		/datum/job/command/head_of_security,
@@ -153,6 +152,8 @@
 	E.owner = traitor
 	E.find_target()
 	traitor.objectives += E
+
+	give_intel()
 
 /datum/antagonist/traitor/give_intel(mob/living/traitor_mob)
 	to_chat(traitor_mob, traitor_mob.mind.employer.show_info())
