@@ -1,6 +1,17 @@
 // READ: Don't use the apostrophe in name or desc. Causes script errors.
 
-var/list/powers = typesof(/datum/power/changeling) - /datum/power/changeling	//needed for the badmin verb for now
+var/list/powers =list(
+	/datum/power/changeling/absorb_dna,
+	/datum/power/changeling/transform,
+	/datum/power/changeling/fakedeath,
+	/datum/power/changeling/mimicvoice,
+	/datum/power/changeling/extractdna,
+	/datum/power/changeling/mimicry,
+	/datum/power/changeling/hive_upload,
+	/datum/power/changeling/hive_download,
+)
+
+//typesof(/datum/power/changeling) - /datum/power/changeling	//needed for the badmin verb for now
 var/list/datum/power/changeling/powerinstances = list()
 
 /datum/power			//Could be used by other antags too
@@ -469,7 +480,9 @@ var/list/datum/power/changeling/powerinstances = list()
 	</body></html>
 	"}
 
-	usr << browse(dat, "window=powers;size=900x480")
+	var/datum/browser/browser = new(usr, "window=powers", null, 900, 480)
+	browser.set_content(dat)
+	browser.open()
 
 
 /datum/changeling/Topic(href, href_list)

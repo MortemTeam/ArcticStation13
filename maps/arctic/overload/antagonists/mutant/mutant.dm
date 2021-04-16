@@ -1,3 +1,6 @@
+/datum/changeling
+	geneticpoints = 0
+
 /datum/antagonist/changeling
 	hard_cap = 1
 	hard_cap_round = 1

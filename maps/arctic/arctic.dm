@@ -20,6 +20,8 @@
 	#include "overload/antagonists/traitor/arsenal/spider.dm"
 
 	#include "overload/antagonists/mutant/mutant.dm"
+	#include "overload/antagonists/mutant/powers.dm"
+	#include "overload/antagonists/mutant/screen_catcher.dm"
 
 	//FIX BROWSER
 	#include "overload/fix_browsers/browser.dm"
