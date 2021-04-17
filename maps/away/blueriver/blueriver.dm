@@ -116,7 +116,7 @@
 /turf/simulated/floor/away/blueriver/alienfloor
 	name = "glowing floor"
 	desc = "The floor glows without any apparent reason"
-	icon = 'riverturfs.dmi'
+	icon = 'maps/away/blueriver/riverturfs.dmi'
 	icon_state = "floor"
 	temperature = 233
 
@@ -128,7 +128,7 @@
 /turf/unsimulated/wall/away/blueriver/livingwall
 	name = "alien wall"
 	desc = "You feel a sense of dread from just looking at this wall. Its surface seems to be constantly moving, as if it were breathing."
-	icon = 'riverturfs.dmi'
+	icon = 'maps/away/blueriver/riverturfs.dmi'
 	icon_state = "evilwall_1"
 	opacity = 1
 	density = 1
