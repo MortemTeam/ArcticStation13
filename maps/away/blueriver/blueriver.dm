@@ -143,7 +143,7 @@
 /turf/unsimulated/wall/supermatter/no_spread
 	name = "weird liquid"
 	desc = "The viscous liquid glows and moves as if it were alive."
-	icon='blueriver.dmi'
+	icon='maps/away/blueriver/blueriver.dmi'
 	icon_state = "bluespacecrystal1"
 	layer = SUPERMATTER_WALL_LAYER
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
@@ -162,7 +162,7 @@
 /turf/unsimulated/wall/supermatter/hell
 	name = "blood"
 	desc = "Looks like glowing blood, I dont think it is a good idea to touch it."
-	icon='blueriver.dmi'
+	icon='maps/away/blueriver/blueriver.dmi'
 	icon_state = "bloodf2"
 	layer = SUPERMATTER_WALL_LAYER
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
