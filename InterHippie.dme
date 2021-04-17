@@ -2704,6 +2704,7 @@
 #include "code\unit_tests\zas_tests.dm"
 #include "code\unit_tests\~helpers.dm"
 #include "code\unit_tests\~unit_test_types.dm"
+#include "fixgame\ambience.dm"
 #include "fixgame\corners.dm"
 #include "fixgame\external_organs.dm"
 #include "fixgame\gun.dm"
