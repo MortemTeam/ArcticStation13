@@ -27,7 +27,7 @@
 /mob/living/simple_animal/hostile/hive_alien/defender
 	name = "hive defender"
 	desc = "A terrifying monster resembling a massive, bloated tick in shape. Hundreds of blades are hidden underneath its rough shell."
-	icon = 'maps/away/blueriver/blueriver.dmi'
+	icon = 'blueriver.dmi'
 	icon_state = "hive_executioner_move"
 	icon_living = "hive_executioner_move"
 	icon_dead = "hive_executioner_dead"
@@ -116,7 +116,7 @@
 /turf/simulated/floor/away/blueriver/alienfloor
 	name = "glowing floor"
 	desc = "The floor glows without any apparent reason"
-	icon = 'maps/away/blueriver/riverturfs.dmi'
+	icon = 'riverturfs.dmi'
 	icon_state = "floor"
 	temperature = 233
 
@@ -128,7 +128,7 @@
 /turf/unsimulated/wall/away/blueriver/livingwall
 	name = "alien wall"
 	desc = "You feel a sense of dread from just looking at this wall. Its surface seems to be constantly moving, as if it were breathing."
-	icon = 'maps/away/blueriver/riverturfs.dmi'
+	icon = 'riverturfs.dmi'
 	icon_state = "evilwall_1"
 	opacity = 1
 	density = 1
@@ -143,7 +143,7 @@
 /turf/unsimulated/wall/supermatter/no_spread
 	name = "weird liquid"
 	desc = "The viscous liquid glows and moves as if it were alive."
-	icon='maps/away/blueriver/blueriver.dmi'
+	icon='blueriver.dmi'
 	icon_state = "bluespacecrystal1"
 	layer = SUPERMATTER_WALL_LAYER
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
@@ -162,7 +162,7 @@
 /turf/unsimulated/wall/supermatter/hell
 	name = "blood"
 	desc = "Looks like glowing blood, I dont think it is a good idea to touch it."
-	icon='maps/away/blueriver/blueriver.dmi'
+	icon='blueriver.dmi'
 	icon_state = "bloodf2"
 	layer = SUPERMATTER_WALL_LAYER
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
