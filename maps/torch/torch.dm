@@ -10,7 +10,7 @@
 	#include "torch_holodecks.dm"
 	#include "torch_overmap.dm"
 	#include "torch_shuttles.dm"
-	#include "torch_unit_testing.dm"
+	//#include "torch_unit_testing.dm"
 	#include "torch_npcs.dm"
 	#include "torch_security_state.dm"
 	#include "torch_presets.dm"
@@ -57,7 +57,13 @@
 	#include "torch-5.dmm"
 	#include "torch-6.dmm"
 	#include "torch-7.dmm"
+
 	#include "../away/empty.dmm"
+	#include "../away/bearcat/bearcat.dm"
+	#include "../away/casino/casino.dm"
+	#include "../away/derelict/derelict.dm"
+
+	/*
 	#include "../away/mining/mining.dm"
 	#include "../away/derelict/derelict.dm"
 	#include "../away/bearcat/bearcat.dm"
@@ -73,6 +79,7 @@
 	#include "../away/mobius_rift/mobius_rift.dm"
 	#include "../away/icarus/icarus.dm"
 	#include "../away/errant_pisces/errant_pisces.dm"
+	*/
 
 	#include "../../code/modules/lobby_music/generic_songs.dm"
 
