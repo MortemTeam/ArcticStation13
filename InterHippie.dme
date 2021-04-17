@@ -2721,7 +2721,6 @@
 #include "maps\arctic\arctic_define.dm"
 #include "maps\away\away_sites.dm"
 #include "maps\away\bearcat\bearcat.dm"
-#include "maps\away\blueriver\blueriver.dm"
 #include "maps\away\casino\casino.dm"
 #include "maps\away\derelict\derelict.dm"
 #include "maps\away\errant_pisces\errant_pisces.dm"
