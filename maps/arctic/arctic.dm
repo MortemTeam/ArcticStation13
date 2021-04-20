@@ -36,6 +36,8 @@
 	#include "defines/clothing/voidsuit.dm"
 	#include "defines/lobby_music.dm"
 
+	#include "defines/clothing/tails/items.dm"
+
 	//AREAS
 	#include "defines/areas/research.dm"
 	#include "defines/areas/special.dm"
