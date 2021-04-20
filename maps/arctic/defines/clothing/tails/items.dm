@@ -32,10 +32,6 @@
 
 	if(update_icons)   update_icons()
 
-/obj/item/clothing/head/kitty
-	icon = 'maps/arctic/defines/clothing/tails/icons.dmi'
-	icon_state = "kittyears"
-
 /datum/category_item/underwear/bottom/tails
 	icon = 'maps/arctic/defines/clothing/tails/icons.dmi'
 
