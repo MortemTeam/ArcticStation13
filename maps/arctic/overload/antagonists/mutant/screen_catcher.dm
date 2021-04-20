@@ -67,24 +67,29 @@
 	master = M
 	master.active_dummy = src
 
-/obj/effect/dummy/mimicry/attackby()
+/obj/effect/dummy/mimicry/proc/disrupt(var/delete_dummy = 1)
+	eject_all()
+	if(delete_dummy)
+		qdel(src)
+	master.active_dummy = null
+
+/obj/effect/dummy/mimicry/proc/activate_disrupt(var/delete_dummy = 1)
 	for(var/mob/M in src)
 		to_chat(M, SPAN_WARNING("Your mimicry deactivates."))
-	disrupt()
+	disrupt(delete_dummy)
+
+/obj/effect/dummy/mimicry/attackby()
+	activate_disrupt()
 
 /obj/effect/dummy/mimicry/attack_hand()
-	return
+	activate_disrupt()
 
 /obj/effect/dummy/mimicry/ex_act()
-	for(var/mob/M in src)
-		to_chat(M, SPAN_WARNING("Your mimicry deactivates."))
-	disrupt()
+	activate_disrupt()
 
 /obj/effect/dummy/mimicry/bullet_act()
-	for(var/mob/M in src)
-		to_chat(M, SPAN_WARNING("Your mimicry deactivates."))
+	activate_disrupt()
 	..()
-	disrupt()
 
 /obj/effect/dummy/mimicry/relaymove(var/mob/user, direction)
 	var/area/A = get_area(src)
@@ -94,12 +99,6 @@
 		can_move = 0
 		spawn(5) can_move = 1
 		step(src, direction)
-
-/obj/effect/dummy/mimicry/proc/disrupt(var/delete_dummy = 1)
-	eject_all()
-	if(delete_dummy)
-		qdel(src)
-	master.active_dummy = null
 
 /obj/effect/dummy/mimicry/proc/eject_all()
 	for(var/atom/movable/A in src)
