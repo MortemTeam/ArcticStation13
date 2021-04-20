@@ -118,7 +118,7 @@
 							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=blowjob'><font color=red>Give head.</font></A><BR>"}
 						if(hasvagina_p)
 							dat += {"<A href='?src=\ref[usr];holder=\ref[P];interaction=vaglick'><font color=red>Lick pussy.</font></A><BR>"}
-	if(isnude && usr.loc == H.partner.loc)
+	if(isnude)
 		if(H.partner.age >= 16)
 			if(H.partner.species.name == "Human")
 				if(haspenis && hashands)
@@ -464,12 +464,13 @@ mob/living/carbon/human/proc/fuck(mob/living/carbon/human/H as mob, mob/living/c
 	handle_lust()
 
 /mob/living/carbon/human/proc/handle_lust()
-	if(lust)
+	if(lust > 0)
 		lust -= 1
 	if(!lust)
 		lastfucked = null
 		lfhole = ""
 		multiorgasms = 0
+
 	erpcooldown = 0
 
 	if(stat)
