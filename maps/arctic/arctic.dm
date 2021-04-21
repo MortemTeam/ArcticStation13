@@ -10,6 +10,7 @@
 	#include "modules/ambient_occlusion.dm"
 	#include "modules/camera_network.dm"
 	#include "modules/crystal_heater.dm"
+	#include "modules/drill.dm"
 	#include "modules/erp_panel.dm"
 	#include "modules/lobby_music.dm"
 	#include "modules/mob.dm"
