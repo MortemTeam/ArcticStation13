@@ -33,7 +33,7 @@
 	if(update_icons)   update_icons()
 
 /datum/category_item/underwear/bottom/tails
-	icon = 'maps/arctic/defines/clothing/tails/icons.dmi'
+	icon = 'maps/arctic/modules/clothing/tails/icons.dmi'
 
 /datum/category_item/underwear/bottom/tails/kitty
 	name = "Kitty Tail"

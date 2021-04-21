@@ -20,6 +20,19 @@
 		/datum/job/service/assistant,
 	)
 
+/datum/job
+	var/allowed_to_game = 0
+
+/get_job_datums()
+	var/list/occupations = list()
+	var/list/all_jobs = typesof(/datum/job)
+
+	for(var/A in all_jobs)
+		var/datum/job/job = new A()
+		if(job && job.allowed_to_game)
+			occupations += job
+
+	return occupations
 
 /* Command */
 
@@ -187,6 +200,18 @@
 		H.generate_stats(list(STAT_HT))
 		H.generate_skills(list("melee", "ranged"))
 
+/datum/job/security/detective
+	allowed_to_game = 1
+
+	title = "Детектив"
+	total_positions = 1
+	spawn_positions = 1
+	outfit_type = /decl/hierarchy/outfit/job/security/detective
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.generate_stats(list(STAT_IQ))
+		H.generate_skills(list("ranged"))
 
 /* Engineering */
 

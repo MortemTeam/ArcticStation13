@@ -4,58 +4,53 @@
 	#include "../shared/datums/uniforms.dm"
 	#include "../shared/items/cards_ids.dm"
 	#include "../shared/items/clothing.dm"
+	#include "../../code/modules/lobby_music/generic_songs.dm"
 
-	//OVERLOAD
-	#include "overload/crystalheater.dm"
-	#include "overload/erppanel.dm"
-	#include "overload/outfit.dm"
-	#include "overload/jobs.dm"
-	#include "overload/mob.dm"
+	//SINGLED MODULE
+	#include "modules/ambient_occlusion.dm"
+	#include "modules/camera_network.dm"
+	#include "modules/crystal_heater.dm"
+	#include "modules/erp_panel.dm"
+	#include "modules/lobby_music.dm"
+	#include "modules/mob.dm"
+	#include "modules/shuttles.dm"
 
 	//ANTAGONISTS
-	#include "overload/antagonists/traitor/traitor.dm"
-	#include "overload/antagonists/traitor/arsenal/comintern.dm"
-	#include "overload/antagonists/traitor/arsenal/nanotrusten.dm"
-	#include "overload/antagonists/traitor/arsenal/third_reich.dm"
-	#include "overload/antagonists/traitor/arsenal/spider.dm"
+	#include "modules/antagonists/traitor/traitor.dm"
+	#include "modules/antagonists/traitor/arsenal/comintern.dm"
+	#include "modules/antagonists/traitor/arsenal/nanotrusten.dm"
+	#include "modules/antagonists/traitor/arsenal/third_reich.dm"
+	#include "modules/antagonists/traitor/arsenal/spider.dm"
 
-	#include "overload/antagonists/mutant/mutant.dm"
-	#include "overload/antagonists/mutant/powers.dm"
-	#include "overload/antagonists/mutant/screen_catcher.dm"
-
-	//FIX BROWSER
-	#include "overload/fix_browsers/browser.dm"
-	#include "overload/fix_browsers/strip.dm"
-	#include "overload/fix_browsers/notes.dm"
-
-	//DEFINES
-	#include "defines/jivin.dm"
-	#include "defines/ambient_occlusion.dm"
-	#include "defines/jobs.dm"
-	#include "defines/shuttles.dm"
-	#include "defines/clothing/voidsuit.dm"
-	#include "defines/lobby_music.dm"
-
-	#include "defines/clothing/tails/items.dm"
+	#include "modules/antagonists/mutant/mutant.dm"
+	#include "modules/antagonists/mutant/powers.dm"
+	#include "modules/antagonists/mutant/screen_catcher.dm"
 
 	//AREAS
-	#include "defines/areas/research.dm"
-	#include "defines/areas/special.dm"
-	#include "defines/areas/hallway.dm"
-	#include "defines/areas/escape.dm"
-	#include "defines/areas/service.dm"
+	#include "modules/areas/areas.dm"
+	#include "modules/areas/escape.dm"
+	#include "modules/areas/hallway.dm"
+	#include "modules/areas/research.dm"
+	#include "modules/areas/service.dm"
+	#include "modules/areas/special.dm"
 
-	//SYSTEM
-	#include "arctic_announcements.dm"
-	#include "arctic_areas.dm"
-	#include "arctic_gamemodes.dm"
-	#include "arctic_presets.dm"
-	#include "arctic_shuttles.dm"
+	//CLOTHING
+	#include "modules/clothing/voidsuit.dm"
+	#include "modules/clothing/tails/items.dm"
 
+	//JIVIN
+	#include "modules/jivin/jivin.dm"
+	#include "modules/jivin/chemistry.dm"
+	#include "modules/jivin/pacman.dm"
+	#include "modules/jivin/uplink.dm"
+
+	//JOBS
+	#include "modules/jobs/jobs.dm"
+	#include "modules/jobs/outfit.dm"
+
+	//MAPS
 	#include "arctic-1.dmm"
 	#include "arctic-2.dmm"
-
-	#include "../../code/modules/lobby_music/generic_songs.dm"
 
 	#define using_map_DATUM /datum/map/arctic
 

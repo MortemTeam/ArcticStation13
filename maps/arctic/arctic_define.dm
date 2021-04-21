@@ -4,7 +4,7 @@
 	full_name = "Arctic Station"
 	path = "arctic"
 
-	lobby_icon = 'maps/arctic/arctic_lobby.dmi'
+	lobby_icon = 'maps/arctic/lobby.dmi'
 
 	station_levels = list(1)
 	admin_levels = list(2)
@@ -25,14 +25,25 @@
 
 	map_admin_faxes = list("Phoebus Mail System")
 
-	shuttle_docked_message = "The Spiteful has docked with the station. The nobles are awaited onboard."
-	shuttle_leaving_dock = "The Spiteful has departed from home dock."
-	shuttle_called_message = "A scheduled crew transfer shuttle Spiteful has been sent."
-	shuttle_recall_message = "The Spiteful has been recalled. Continuous wasting of resources may result in the crew's termination."
-	emergency_shuttle_docked_message = "The Spiteful has docked with the station. The nobles are awaited onboard."
-	emergency_shuttle_leaving_dock = "The Spiteful emergency escape shuttle has departed from %dock_name%."
-	emergency_shuttle_called_message = "Spiteful emergency escape shuttle has been sent. It will arrive in approximately 10 minutes."
-	emergency_shuttle_recall_message = "The Spiteful emergency escape shuttle has been recalled. Continuous wasting of resources may result in the crew's termination."
+	emergency_shuttle_docked_message = "The Emergency Shuttle has docked with the station. You have approximately %ETD% to board the Emergency Shuttle."
+	emergency_shuttle_leaving_dock = "The Emergency Shuttle has left the station. Estimate %ETA% until the shuttle docks at %dock_name%."
+
+	emergency_shuttle_called_message = "WARNING: An emergency evacuation shuttle has been called. It will arrive in approximately %ETA%"
+	emergency_shuttle_called_sound = 'sound/AI/november/warning.ogg'
+
+	emergency_shuttle_recall_message = "The emergency shuttle has been recalled."
+
+	command_report_sound = 'sound/AI/november/attention.ogg'
+	grid_check_sound = 'sound/AI/november/warning.ogg'
+	grid_restored_sound = 'sound/AI/november/warning.ogg'
+	meteor_detected_sound = 'sound/AI/november/threat.ogg'
+	radiation_detected_message = "WARNING: High levels of radiation detected in proximity of the %STATION_NAME%. Please evacuate into one of the shielded maintenance tunnels."
+	radiation_detected_sound = 'sound/AI/november/threat.ogg'
+	space_time_anomaly_sound = 'sound/AI/november/subspace.ogg'
+	unidentified_lifesigns_sound = 'sound/AI/november/threat.ogg'
+
+	electrical_storm_moderate_sound = null
+	electrical_storm_major_sound = null
 
 	evac_controller_type = /datum/evacuation_controller/shuttle
 
