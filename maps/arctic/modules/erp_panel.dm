@@ -522,17 +522,17 @@ mob/living/carbon/human/proc/fuck(mob/living/carbon/human/H as mob, mob/living/c
 /obj/item/weapon/enlarger/attack(mob/living/carbon/human/M, mob/living/carbon/human/user)
 	if(istype(M, /mob/living/carbon/human) && (M.gender == MALE))
 		M.potenzia = 30
-		to_chat(M, "<span class='warning'>Your penis extends!</span>")
+		to_chat(M, SPAN_WARNING("Your penis extends!"))
 
 	else if(istype(M, /mob/living/carbon/human) && M.gender == FEMALE)
-		to_chat(M, "<span class='warning'>It didn't affect you since you're female!</span>")
+		to_chat(M, SPAN_WARNING("It didn't affect you since you're female!"))
 
 	..()
 
 	qdel(src)
 
 /obj/item/weapon/enlarger/attack_self(mob/user as mob)
-	to_chat(usr, "<span class='warning'>You break the syringe. Gooey mass is dripping on the floor.</span>")
+	to_chat(usr, SPAN_WARNING("You break the syringe. Gooey mass is dripping on the floor."))
 	qdel(src)
 
 /obj/item/weapon/dildo
@@ -600,7 +600,7 @@ mob/living/carbon/human/proc/fuck(mob/living/carbon/human/H as mob, mob/living/c
 		hole = "anus"
 	else
 		hole = "vagina"
-	to_chat(user, "<span class='warning'>Hmmm. Maybe we should put it in [hole]?!</span>")
+	to_chat(user, SPAN_WARNING("Hmmm. Maybe we should put it in [hole]?!"))
 
 /obj/machinery/disposal/toilet
 	New()
