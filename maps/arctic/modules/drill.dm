@@ -8,7 +8,6 @@
 	var/base_power_usage = 10 KILOWATTS // Base power usage when the drill is running.
 	var/actual_power_usage = 10 KILOWATTS // Actual power usage, with upgrades in mind.
 	var/active = 0
-	var/list/resource_field = list()
 
 	var/ore_types = list(
 		/obj/item/stack/material/living_matter = 3,
@@ -71,6 +70,14 @@
 
 		var/oretype = pickweight(ore_types)
 		new oretype(src)
+
+	if(prob(1))
+		var/datum/effect/effect/system/spark_spread/sparks = new /datum/effect/effect/system/spark_spread()
+		sparks.set_up(3, 0, get_turf(src))
+		sparks.start()
+
+		component_parts -= pick(component_parts)
+		RefreshParts()
 
 
 /obj/machinery/mining/smart_drill/attack_ai(var/mob/user as mob)
