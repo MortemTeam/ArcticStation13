@@ -47,6 +47,7 @@
 
 	//JOBS
 	#include "modules/jobs/jobs.dm"
+	#include "modules/jobs/job_controller.dm"
 	#include "modules/jobs/outfit.dm"
 
 	//MAPS
