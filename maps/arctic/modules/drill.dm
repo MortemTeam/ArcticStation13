@@ -201,3 +201,23 @@
 		to_chat(usr, SPAN_NOTICE("You unload the drill's storage cache into the ore box."))
 	else
 		to_chat(usr, SPAN_NOTICE("You must move an ore box up to the drill before you can unload it."))
+
+
+/obj/machinery/mining/brace/connect()
+	var/turf/T = get_step(get_turf(src), src.dir)
+
+	for(var/thing in T.contents)
+		if(istype(thing, /obj/machinery/mining/smart_drill))
+			connected = thing
+			break
+
+	if(!connected)
+		return
+
+	if(!connected.supports)
+		connected.supports = list()
+
+	icon_state = "mining_brace_active"
+
+	connected.supports += src
+	connected.check_supports()
