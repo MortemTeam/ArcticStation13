@@ -13,3 +13,7 @@
 /area/service/gamebar
 	name = "GameBar"
 	icon_state = "bar"
+
+/area/service/showroom
+	name = "Show Room"
+	icon_state = "showroom"

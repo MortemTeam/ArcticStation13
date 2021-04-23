@@ -30,6 +30,10 @@
 	name = "R&D Storage"
 	icon_state = "storage"
 
+/area/rnd/showers
+	name = "R&D Showers"
+	icon_state = "restrooms"
+
 /area/rnd/server
 	name = "Research Server Room"
 	icon_state = "server"

@@ -32,6 +32,8 @@
 	#include "modules/areas/escape.dm"
 	#include "modules/areas/hallway.dm"
 	#include "modules/areas/research.dm"
+	#include "modules/areas/engineering.dm"
+	#include "modules/areas/substation.dm"
 	#include "modules/areas/service.dm"
 	#include "modules/areas/special.dm"
 

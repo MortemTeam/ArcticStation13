@@ -1,3 +1,6 @@
+/area/hallway/gateway
+	name = "Gateway"
+	icon_state = "teleporter"
 
 /area/hallway/eva
 	name = "EVA Hall"
