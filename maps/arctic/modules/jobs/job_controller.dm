@@ -100,7 +100,7 @@
 			H.mind.assigned_role = rank
 
 			switch(rank)
-				if("Cyborg")
+				if("Киборг")
 					return H.Robotize()
 				if("AI")
 					return H
