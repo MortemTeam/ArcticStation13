@@ -70,21 +70,3 @@
 	name = "Atmospherics Storage"
 	icon_state = "atmos_storage"
 	sound_env = SMALL_ENCLOSED
-
-// Maintenance
-
-/area/maintenance/atmos_control
-	name = "Atmospherics Maintenance"
-	icon_state = "fpmaint"
-
-/area/maintenance/engi_engine
-	name = "Engine Maintenance"
-	icon_state = "maint_engine"
-
-/area/maintenance/engi_shuttle
-	name = "Engineering Shuttle Access"
-	icon_state = "maint_e_shuttle"
-
-/area/maintenance/engineering
-	name = "Engineering Maintenance"
-	icon_state = "maint_engineering"
