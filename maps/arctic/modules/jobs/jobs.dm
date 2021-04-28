@@ -6,6 +6,7 @@
 
 		/datum/job/command/head_of_security,
 		/datum/job/security/officer,
+		/datum/job/security/detective,
 
 		/datum/job/command/chief_personel,
 
@@ -15,8 +16,6 @@
 		/datum/job/medical/surgeon,
 		/datum/job/medical/chemist,
 
-		/datum/job/command/clown,
-		/datum/job/service/janitor,
 		/datum/job/service/assistant,
 	)
 
