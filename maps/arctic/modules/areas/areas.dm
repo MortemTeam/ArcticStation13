@@ -387,15 +387,6 @@
 	name = "Security - Tactical Equipment"
 	icon_state = "Tactical"
 
-/area/quartermaster
-	name = "Quartermasters"
-	icon_state = "quart"
-
-/area/quartermaster/storage
-	name = "Warehouse"
-	icon_state = "quartstorage"
-	sound_env = LARGE_ENCLOSED
-
 // Research
 
 
@@ -696,16 +687,6 @@ D
 /area/security/range
 	name = "Security - Firing Range"
 	icon_state = "firingrange"
-
-// Cargo
-/area/quartermaster/office
-	name = "Supply Office"
-	icon_state = "quartoffice"
-
-/area/quartermaster/storage
-	name = "Warehouse"
-	icon_state = "quartstorage"
-	sound_env = LARGE_ENCLOSED
 
 // Crew
 
