@@ -37,11 +37,6 @@
 
 /area/engineering/break_room
 	name = "Engineering Break Room"
-	icon_state = "engineering_break"
-	sound_env = MEDIUM_SOFTFLOOR
-
-/area/engineering/washroom
-	name = "Engineering Washroom"
 	icon_state = "restrooms"
 	sound_env = MEDIUM_SOFTFLOOR
 
