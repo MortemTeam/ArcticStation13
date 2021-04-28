@@ -74,11 +74,7 @@
 	department_flag = COM|SEC
 	outfit_type = /decl/hierarchy/outfit/job/security/hos
 
-	access = list(
-		access_security, access_eva, access_sec_doors, access_brig, access_armory,
-		access_forensics_lockers, access_morgue, access_maint_tunnels, access_all_personal_lockers,
-		access_research, access_engine, access_mining, access_medical, access_construction, access_mailsorting,
-		access_heads, access_hos, access_RC_announce, access_keycard_auth, access_gateway, access_external_airlocks)
+	access = list()
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -92,11 +88,7 @@
 	department_flag = COM|SRV
 	outfit_type = /decl/hierarchy/outfit/job/hop
 
-	access = list(
-		access_engine, access_engine_equip, access_tech_storage, access_maint_tunnels,
-		access_teleporter, access_external_airlocks, access_atmospherics, access_emergency_storage, access_eva,
-		access_heads, access_construction, access_sec_doors,
-		access_ce, access_RC_announce, access_keycard_auth, access_tcomsat, access_ai_upload)
+	access = list()
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -109,15 +101,12 @@
 	department_flag = COM|MED
 	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
 
-	access = list(
-		access_medical, access_medical_equip, access_morgue, access_genetics, access_heads,
-		access_chemistry, access_virology, access_cmo, access_surgery, access_RC_announce,
-		access_keycard_auth, access_sec_doors, access_psychiatrist, access_eva, access_maint_tunnels, access_external_airlocks)
+	access = list()
 
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.generate_stats(list(STAT_IQ))
-		H.generate_skills(list("medical", "surgery"))
+		H.generate_skills(list("medical","surgery"))
 
 /datum/job/command/clown
 	allowed_to_game = 1
@@ -142,10 +131,7 @@
 	total_positions = 3
 	spawn_positions = 3
 	economic_modifier = 5
-	access = list(
-		access_tox, access_tox_storage, access_research,
-		access_xenoarch, access_robotics, access_eva,
-		access_tech_storage, access_morgue)
+	access = list()
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -171,6 +157,27 @@
 		..()
 		H.generate_skills(list("science","crafting"))
 
+/* Cargo */
+
+/datum/job/cargo
+	department = "Cargo"
+	supervisors = "the chief of personel"
+	selection_color = "#633d63"
+	department_flag = SCI
+
+	total_positions = 3
+	spawn_positions = 3
+	economic_modifier = 5
+	access = list()
+
+/datum/job/cargo/cargo_technician
+	allowed_to_game = 1
+
+	title = "Карготехник"
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.generate_skills(list("engineering","crafting"))
 
 /* Security */
 
@@ -183,10 +190,7 @@
 	total_positions = 3
 	spawn_positions = 3
 	economic_modifier = 5
-	access = list(
-		access_security, access_eva, access_sec_doors,
-		access_brig, access_maint_tunnels, access_morgue,
-		access_external_airlocks)
+	access = list()
 
 /datum/job/security/officer
 	allowed_to_game = 1
@@ -216,17 +220,14 @@
 
 /datum/job/engineering
 	department = "Engineering"
-	supervisors = "the chief engineer"
+	supervisors = "the chief of personel"
 	selection_color = "#5b4d20"
 	department_flag = ENG
 
 	total_positions = 3
 	spawn_positions = 3
 	economic_modifier = 5
-	access = list(
-		access_eva, access_engine, access_engine_equip,
-		access_tech_storage, access_maint_tunnels, access_external_airlocks,
-		access_construction, access_atmospherics, access_emergency_storage)
+	access = list()
 
 /datum/job/engineering/engineer
 	allowed_to_game = 1
@@ -244,16 +245,14 @@
 
 /datum/job/medical
 	department = "Medical"
-	supervisors = "the chief medical officer"
+	supervisors = "the chief of personel"
 	selection_color = "#013d3b"
 	department_flag = MED
 
 	total_positions = 2
 	spawn_positions = 2
 	economic_modifier = 5
-	access = list(
-		access_medical, access_medical_equip, access_morgue, access_eva,
-		access_surgery, access_chemistry, access_virology, access_genetics)
+	access = list()
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -283,7 +282,7 @@
 
 /datum/job/service
 	department = "Service"
-	supervisors = "the clown"
+	supervisors = "the chief of personel"
 	selection_color = "#515151"
 
 	department_flag = SRV
@@ -295,33 +294,12 @@
 	allowed_to_game = 1
 
 	title = "Ассистент"
-	access = list(access_maint_tunnels, access_eva)
+	access = list()
 	outfit_type = /decl/hierarchy/outfit/job/assistant
-
-/datum/job/service/janitor
-	allowed_to_game = 1
-
-	title = "Уборщик"
-	access = list(
-		access_janitor, access_maint_tunnels, access_engine, access_eva,
-		access_research, access_sec_doors, access_medical)
-	outfit_type = /decl/hierarchy/outfit/job/service/janitor
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.generate_skills(list("cleaning"))
-
-/datum/job/command/clown
-	allowed_to_game = 1
-
-	title = "Актер"
-	total_positions = 1
-	spawn_positions = 1
-	outfit_type = /decl/hierarchy/outfit/clown
-
-	access = list(
-		access_heads, access_RC_announce, access_external_airlocks, access_janitor,
-		access_keycard_auth, access_sec_doors, access_eva, access_maint_tunnels)
+		H.generate_skills(list("cleaning", "cooking"))
 
 /* Silicon */
 

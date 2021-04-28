@@ -34,6 +34,8 @@
 	#include "modules/areas/research.dm"
 	#include "modules/areas/engineering.dm"
 	#include "modules/areas/cargo.dm"
+	#include "modules/areas/brig.dm"
+	#include "modules/areas/heads.dm"
 	#include "modules/areas/substation.dm"
 	#include "modules/areas/service.dm"
 	#include "modules/areas/special.dm"

@@ -12,25 +12,6 @@
 //place to another. Look at escape shuttle for example.
 //All shuttles should now be under shuttle since we have smooth-wall code.
 
-// Command
-/area/crew_quarters/heads
-	sound_env = MEDIUM_SOFTFLOOR
-
-/area/crew_quarters/heads/ce
-	name = "Engineering - CE's Office"
-
-/area/crew_quarters/heads/hos
-	name = "Security - HoS' Office"
-
-/area/crew_quarters/heads/rd
-	name = "Research - RD's Office"
-
-/area/crew_quarters/heads/cmo
-	name = "Medical - MM's Office"
-
-/area/crew_quarters/heads/clown
-	name = "Service - Clown's Office"
-
 // Shuttles
 
 /area/shuttle/escape
@@ -329,67 +310,6 @@
 	name = "Cryogenics"
 	icon_state = "cryo"
 
-//Security
-
-/area/security/main
-	name = "Security Office"
-	icon_state = "security"
-
-/area/security/meeting
-	name = "Security Meeting Room"
-	icon_state = "security"
-
-/area/security/lobby
-	name = "Security Lobby"
-	icon_state = "security"
-
-/area/security/brig/processing
-	name = "Security - Processing"
-	icon_state = "brig"
-
-/area/security/brig/interrogation
-	name = "Security - Interrogation"
-	icon_state = "brig"
-
-/area/security/brig/solitaryA
-	name = "Security - Solitary 1"
-	icon_state = "sec_prison"
-
-/area/security/brig/solitaryB
-	name = "Security - Solitary 2"
-	icon_state = "sec_prison"
-
-/area/security/brig/prison_break()
-	for(var/obj/structure/closet/secure_closet/brig/temp_closet in src)
-		temp_closet.locked = 0
-		temp_closet.icon_state = temp_closet.icon_closed
-	for(var/obj/machinery/door_timer/temp_timer in src)
-		temp_timer.releasetime = 1
-	..()
-
-/area/security/prison/restroom
-	name = "Security - Prison Wing Restroom"
-	icon_state = "sec_prison"
-
-/area/security/prison/dorm
-	name = "Security - Prison Wing Dormitory"
-	icon_state = "sec_prison"
-
-/area/security/prison/prison_break()
-	for(var/obj/structure/closet/secure_closet/brig/temp_closet in src)
-		temp_closet.locked = 0
-		temp_closet.icon_state = temp_closet.icon_closed
-	for(var/obj/machinery/door_timer/temp_timer in src)
-		temp_timer.releasetime = 1
-	..()
-
-/area/security/tactical
-	name = "Security - Tactical Equipment"
-	icon_state = "Tactical"
-
-// Research
-
-
 //Storage
 
 /area/storage/art
@@ -660,33 +580,6 @@ D
 /area/shuttle/administration/orbital_outpost
 	name = "Administration Shuttle"
 	icon_state = "shuttlered"
-
-// Security
-
-/area/prison/solitary
-	name = "Solitary Confinement"
-	icon_state = "brig"
-
-/area/security/armoury
-	name = "Security - Armory"
-	icon_state = "Warden"
-
-/area/security/checkpoint2
-	name = "Security - Checkpoint"
-	icon_state = "checkpoint1"
-
-/area/security/detectives_office
-	name = "Security - Forensic Office"
-	icon_state = "detective"
-	sound_env = MEDIUM_SOFTFLOOR
-
-/area/security/nuke_storage
-	name = "Vault"
-	icon_state = "nuke_storage"
-
-/area/security/range
-	name = "Security - Firing Range"
-	icon_state = "firingrange"
 
 // Crew
 
