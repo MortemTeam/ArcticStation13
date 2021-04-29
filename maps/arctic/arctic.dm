@@ -15,6 +15,8 @@
 	#include "modules/lobby_music.dm"
 	#include "modules/mob.dm"
 	#include "modules/shuttles.dm"
+	#include "modules/gun_rename.dm"
+	#include "modules/detective_guncase.dm"
 
 	//ANTAGONISTS
 	#include "modules/antagonists/traitor/traitor.dm"
