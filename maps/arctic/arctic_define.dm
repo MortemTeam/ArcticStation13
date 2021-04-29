@@ -12,7 +12,7 @@
 	player_levels = list(1)
 	accessible_z_levels = list("2" = 1) //Percentage of chance to get on this or that Z level as you drift through space.
 
-	allowed_spawns = list("Default", "Gateway")
+	allowed_spawns = list("Gateway")
 
 	station_name  = "M0R-T3M"
 	station_short = "Arcticum"

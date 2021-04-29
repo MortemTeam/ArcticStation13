@@ -17,6 +17,7 @@
 	#include "modules/shuttles.dm"
 	#include "modules/gun_rename.dm"
 	#include "modules/detective_guncase.dm"
+	#include "modules/spawnpoints.dm"
 
 	//ANTAGONISTS
 	#include "modules/antagonists/traitor/traitor.dm"
