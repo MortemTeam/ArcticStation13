@@ -10,6 +10,8 @@
 
 		/datum/job/command/chief_personel,
 
+		/datum/job/cargo/cargo_technician,
+
 		/datum/job/engineering/engineer,
 
 		/datum/job/medical/doctor,
@@ -20,18 +22,13 @@
 	)
 
 /datum/job
-	var/allowed_to_game = 0
+	var/stats_aspect
+	var/skill_aspect = list()
 
-/get_job_datums()
-	var/list/occupations = list()
-	var/list/all_jobs = typesof(/datum/job)
-
-	for(var/A in all_jobs)
-		var/datum/job/job = new A()
-		if(job && job.allowed_to_game)
-			occupations += job
-
-	return occupations
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.generate_stats(stats_aspect)
+		H.generate_skills(skill_aspect)
 
 /* Command */
 
@@ -49,75 +46,51 @@
 		H.implant_loyalty(src)
 
 /datum/job/command/research_director
-	allowed_to_game = 1
 	title = "Научный руководитель"
 	department = "Research & Development"
 	supervisors = "company officials and Corporate Regulations"
 	department_flag = COM|SCI
+
 	head_position = 1
 	minimum_character_age  = 30
 	ideal_character_age = 50
 	outfit_type = /decl/hierarchy/outfit/job/science/rd
 
+	stats_aspect = STAT_IQ
+	skill_aspect = list("medical","surgery","engineering","science")
+
 	get_access()
 		return get_all_station_access()
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_stats(STAT_IQ)
-		H.generate_skills(list("medical","surgery","engineering","science"))
-
 /datum/job/command/head_of_security
-	allowed_to_game = 1
 	title = "Глава службы безопасности"
 	department = "Security"
 	department_flag = COM|SEC
 	outfit_type = /decl/hierarchy/outfit/job/security/hos
 
+	stats_aspect = STAT_ST
+	skill_aspect = list("melee", "ranged")
 	access = list()
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_stats(list(STAT_ST, STAT_DX, STAT_HT))
-		H.generate_skills(list("melee", "ranged"))
-
 /datum/job/command/chief_personel
-	allowed_to_game = 1
 	title = "Старший по персоналу"
 	department = "Service"
 	department_flag = COM|SRV
 	outfit_type = /decl/hierarchy/outfit/job/hop
 
+	stats_aspect = STAT_IQ
+
 	access = list()
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_stats(list(STAT_IQ))
-
 /datum/job/command/medical_manager
-	allowed_to_game = 0
 	title = "Менеджер медицинского персонала"
 	department = "Medical"
 	department_flag = COM|MED
 	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
 
+	stats_aspect = STAT_IQ
+	skill_aspect = list("medical","surgery")
 	access = list()
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_stats(list(STAT_IQ))
-		H.generate_skills(list("medical","surgery"))
-
-/datum/job/command/clown
-	allowed_to_game = 1
-	title = "Актер"
-	department = "Service"
-	department_flag = COM|SRV
-	outfit_type = /decl/hierarchy/outfit/clown
-
-	access = list(
-		access_heads, access_RC_announce, access_external_airlocks, access_janitor,
-		access_keycard_auth, access_sec_doors, access_eva, access_maint_tunnels)
 
 
 /* Research & Development */
@@ -131,53 +104,43 @@
 	total_positions = 3
 	spawn_positions = 3
 	economic_modifier = 5
+
+	stats_aspect = STAT_IQ
 	access = list()
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_stats(STAT_IQ)
-
 /datum/job/rnd/roboticist
-	allowed_to_game = 1
-
 	title = "Робототехник"
 	outfit_type = /decl/hierarchy/outfit/job/science/roboticist
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_skills(list("engineering","science"))
+	stats_aspect = STAT_ST
+	skill_aspect = list("engineering","science")
 
 /datum/job/rnd/scientist
-	allowed_to_game = 1
-
 	title = "Научный сотрудник"
 	outfit_type = /decl/hierarchy/outfit/job/science/scientist
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_skills(list("science","crafting"))
+	skill_aspect = list("science","crafting")
+
 
 /* Cargo */
 
 /datum/job/cargo
 	department = "Cargo"
 	supervisors = "the chief of personel"
-	selection_color = "#633d63"
-	department_flag = SCI
+	selection_color = "#515151"
+	department_flag = SUP
 
 	total_positions = 3
 	spawn_positions = 3
 	economic_modifier = 5
+
+	stats_aspect = STAT_HT
+	skill_aspect = list("engineering","crafting")
 	access = list()
 
 /datum/job/cargo/cargo_technician
-	allowed_to_game = 1
-
 	title = "Карготехник"
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_skills(list("engineering","crafting"))
 
 /* Security */
 
@@ -193,28 +156,20 @@
 	access = list()
 
 /datum/job/security/officer
-	allowed_to_game = 1
-
 	title = "Офицер безопасности"
 	outfit_type = /decl/hierarchy/outfit/job/security/officer
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_stats(list(STAT_HT))
-		H.generate_skills(list("melee", "ranged"))
+	stats_aspect = STAT_ST
+	skill_aspect = list("melee", "ranged")
 
 /datum/job/security/detective
-	allowed_to_game = 1
-
 	title = "Детектив"
 	total_positions = 1
 	spawn_positions = 1
 	outfit_type = /decl/hierarchy/outfit/job/security/detective
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_stats(list(STAT_IQ))
-		H.generate_skills(list("ranged"))
+	stats_aspect = STAT_IQ
+	skill_aspect = list("ranged")
 
 /* Engineering */
 
@@ -227,18 +182,14 @@
 	total_positions = 3
 	spawn_positions = 3
 	economic_modifier = 5
+
+	stats_aspect = STAT_HT
+	skill_aspect = list("engineering","crafting")
 	access = list()
 
 /datum/job/engineering/engineer
-	allowed_to_game = 1
-
 	title = "Инженер"
 	outfit_type = /decl/hierarchy/outfit/job/engineering/engineer
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_stats(list(STAT_HT))
-		H.generate_skills(list("engineering","crafting"))
 
 
 /* Medical */
@@ -252,28 +203,20 @@
 	total_positions = 2
 	spawn_positions = 2
 	economic_modifier = 5
+
+	stats_aspect = STAT_IQ
+	skill_aspect = list("medical", "surgery")
 	access = list()
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_stats(list(STAT_IQ))
-		H.generate_skills(list("medical", "surgery"))
-
 /datum/job/medical/doctor
-	allowed_to_game = 1
-
 	title = "Доктор"
 	outfit_type = /decl/hierarchy/outfit/job/medical/doctor
 
 /datum/job/medical/surgeon
-	allowed_to_game = 1
-
 	title = "Хирург"
 	outfit_type = /decl/hierarchy/outfit/job/medical/doctor/surgeon
 
 /datum/job/medical/chemist
-	allowed_to_game = 1
-
 	title = "Химик"
 	outfit_type = /decl/hierarchy/outfit/job/medical/chemist
 
@@ -290,16 +233,13 @@
 	spawn_positions = -1
 	economic_modifier = 5
 
-/datum/job/service/assistant
-	allowed_to_game = 1
-
-	title = "Ассистент"
+	skill_aspect = list("cleaning","cooking","gardening","crafting")
 	access = list()
+
+/datum/job/service/assistant
+	title = "Ассистент"
 	outfit_type = /decl/hierarchy/outfit/job/assistant
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.generate_skills(list("cleaning", "cooking"))
 
 /* Silicon */
 
@@ -319,8 +259,6 @@
 	hud_icon = "hudblank"
 
 /datum/job/silicon/cyborg
-	allowed_to_game = 1
-
 	title = "Киборг"
 	total_positions = 2
 	spawn_positions = 2
