@@ -1,9 +1,10 @@
+/obj/machinery/power/supermatter
+	var/thermal_multi = 10
+
 /obj/machinery/power/supermatter/Process()
 	..()
-	if(world.time) //> 10 MINUTES)
-		for(var/area/A in world)
-			if(A.z == loc.z)
-				if(is_not_space_area(A))
-					for(var/datum/gas_mixture/GM in A)
-						if(GM.temperature > 20)
-							GM.temperature += (-1 + (power/1000))
+	if(world.time > 5 MINUTES)
+		for(var/X in SSair.zones)
+			var/zone/zone = X
+			var/datum/gas_mixture/GM = zone.air
+			GM.add_thermal_energy((-1000 + power) * thermal_multi)
