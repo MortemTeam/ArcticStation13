@@ -16,7 +16,7 @@
 		return to_chat(user, SPAN_WARNING("This type is not allowed"))
 
 	if(get_dist(user, target) >= range)
-		return to_chat(src, SPAN_WARNING("We cannot reach \the [target] with a sting!</span>"))
+		return to_chat(user, SPAN_WARNING("We cannot reach \the [target] with a sting!</span>"))
 
 	if(pay(cost))
 		Handle(target)
@@ -30,12 +30,10 @@
 
 /datum/click_handler/changeling/extract_dna/Handle(var/mob/living/carbon/human/target)
 	if((HUSK in target.mutations) || (target.species.species_flags & SPECIES_FLAG_NO_SCAN))
-		to_chat(src, SPAN_WARNING("We cannot extract DNA from this creature!"))
-		return
+		return to_chat(user, SPAN_WARNING("We cannot extract DNA from this creature!"))
 
 	if(target.species.species_flags & SPECIES_FLAG_NEED_DIRECT_ABSORB)
-		to_chat(src, SPAN_NOTICE("That species must be absorbed directly."))
-		return
+		return to_chat(user, SPAN_NOTICE("That species must be absorbed directly."))
 
 	var/datum/absorbed_dna/newDNA = new(target.real_name, target.dna, target.species.name, target.languages)
 	user.absorbDNA(newDNA)
