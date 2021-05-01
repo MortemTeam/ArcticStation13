@@ -2,10 +2,11 @@
 	geneticpoints = 0
 
 /datum/antagonist/changeling
-	hard_cap = 1
-	hard_cap_round = 1
-	initial_spawn_req = 1
+	hard_cap = 25
+	hard_cap_round = 50
+	initial_spawn_req = 30
 	initial_spawn_target = 1
+
 	flags = ANTAG_SUSPICIOUS
 	blacklisted_jobs = list(
 		/datum/job/silicon/cyborg,
