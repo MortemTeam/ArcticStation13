@@ -64,3 +64,14 @@
 
 	id_type = /obj/item/weapon/card/id/security/detective
 	pda_type = /obj/item/device/pda/detective
+
+/* OTHER */
+
+/decl/hierarchy/outfit/job/hop
+	name = OUTFIT_JOB_NAME("Chief Personel")
+	uniform = /obj/item/clothing/under/rank/head_of_personnel_whimsy
+	shoes = /obj/item/clothing/shoes/laceup
+
+	l_ear = /obj/item/device/radio/headset/heads/hop
+	id_type = /obj/item/weapon/card/id/civilian/head
+	pda_type = /obj/item/device/pda/heads/hop
