@@ -12,11 +12,11 @@
 /decl/hierarchy/outfit/job/science
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	l_ear = /obj/item/device/radio/headset/headset_sci
-	shoes = /obj/item/clothing/shoes/white
 
 /decl/hierarchy/outfit/job/science/rd
 	name = OUTFIT_JOB_NAME("Research Director")
 	uniform = /obj/item/clothing/under/rank/research_director
+	shoes = /obj/item/clothing/shoes/white
 
 	l_ear = /obj/item/device/radio/headset/heads/rd
 	id_type = /obj/item/weapon/card/id/science/head
@@ -25,6 +25,7 @@
 /decl/hierarchy/outfit/job/science/scientist
 	name = OUTFIT_JOB_NAME("Scientist")
 	uniform = /obj/item/clothing/under/rank/scientist_new
+	shoes = /obj/item/clothing/shoes/white
 
 	id_type = /obj/item/weapon/card/id/science
 	pda_type = /obj/item/device/pda/science
@@ -32,6 +33,7 @@
 /decl/hierarchy/outfit/job/science/roboticist
 	name = OUTFIT_JOB_NAME("Roboticist")
 	uniform = /obj/item/clothing/under/rank/roboticist
+	shoes = /obj/item/clothing/shoes/white
 
 	id_type = /obj/item/weapon/card/id/science/roboticist
 	pda_type = /obj/item/device/pda/roboticist
@@ -45,13 +47,13 @@
 	l_ear = /obj/item/device/radio/headset/headset_sec
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud
 	gloves = /obj/item/clothing/gloves/thick/swat
-	shoes = /obj/item/clothing/shoes/swat
 	backpack_contents = list()
 
 /decl/hierarchy/outfit/job/security/hos
 	name = OUTFIT_JOB_NAME("Head of Security")
 	uniform = /obj/item/clothing/under/rank/head_of_security/corp
 	suit = /obj/item/clothing/suit/armor/hos/jensen
+	shoes = /obj/item/clothing/shoes/swat
 
 	l_ear = /obj/item/device/radio/headset/heads/hos
 	id_type = /obj/item/weapon/card/id/security/head
@@ -60,6 +62,7 @@
 /decl/hierarchy/outfit/job/security/officer
 	name = OUTFIT_JOB_NAME("Officer")
 	uniform = /obj/item/clothing/under/rank/security/corp
+	shoes = /obj/item/clothing/shoes/swat
 
 	id_type = /obj/item/weapon/card/id/security
 	pda_type = /obj/item/device/pda/security
@@ -68,6 +71,7 @@
 	name = OUTFIT_JOB_NAME("Detective")
 	uniform = /obj/item/clothing/under/det
 	suit = /obj/item/clothing/suit/storage/det_trench
+	shoes = /obj/item/clothing/shoes/swat
 
 	id_type = /obj/item/weapon/card/id/security/detective
 	pda_type = /obj/item/device/pda/detective
@@ -95,7 +99,6 @@
 /* Medical */
 /decl/hierarchy/outfit/job/medical
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
-	shoes = /obj/item/clothing/shoes/white
 
 	l_ear = /obj/item/device/radio/headset/headset_med
 	id_type = /obj/item/weapon/card/id/medical
@@ -104,12 +107,25 @@
 /decl/hierarchy/outfit/job/medical/doctor
 	name = OUTFIT_JOB_NAME("Doctor")
 	uniform = /obj/item/clothing/under/rank/medical
+	shoes = /obj/item/clothing/shoes/white
 
 /decl/hierarchy/outfit/job/medical/doctor/surgeon
 	name = OUTFIT_JOB_NAME("Surgeon")
 	uniform = /obj/item/clothing/under/rank/medical
+	shoes = /obj/item/clothing/shoes/white
 
 /decl/hierarchy/outfit/job/medical/chemist
 	name = OUTFIT_JOB_NAME("Chemist")
 	uniform = /obj/item/clothing/under/rank/chemist_new
+	shoes = /obj/item/clothing/shoes/white
 	pda_type = /obj/item/device/pda/chemist
+
+/* Service */
+/decl/hierarchy/outfit/job/assistant
+	name = OUTFIT_JOB_NAME("Assistant")
+	uniform = /obj/item/clothing/under/assistantformal
+	shoes = /obj/item/clothing/shoes/black
+
+	l_ear = /obj/item/device/radio/headset/headset_service
+	id_type = /obj/item/weapon/card/id/bartender
+	pda_type = /obj/item/device/pda
