@@ -1,5 +1,14 @@
-/* RND */
+/* CP */
+/decl/hierarchy/outfit/job/hop
+	name = OUTFIT_JOB_NAME("Chief Personel")
+	uniform = /obj/item/clothing/under/rank/head_of_personnel_whimsy
+	shoes = /obj/item/clothing/shoes/laceup
 
+	l_ear = /obj/item/device/radio/headset/heads/hop
+	id_type = /obj/item/weapon/card/id/civilian/head
+	pda_type = /obj/item/device/pda/heads/hop
+
+/* RND */
 /decl/hierarchy/outfit/job/science
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	l_ear = /obj/item/device/radio/headset/headset_sci
@@ -31,9 +40,7 @@
 	..()
 	backpack_overrides.Cut()
 
-
 /* Security */
-
 /decl/hierarchy/outfit/job/security
 	l_ear = /obj/item/device/radio/headset/headset_sec
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud
@@ -65,19 +72,7 @@
 	id_type = /obj/item/weapon/card/id/security/detective
 	pda_type = /obj/item/device/pda/detective
 
-/* OTHER */
-
-/decl/hierarchy/outfit/job/hop
-	name = OUTFIT_JOB_NAME("Chief Personel")
-	uniform = /obj/item/clothing/under/rank/head_of_personnel_whimsy
-	shoes = /obj/item/clothing/shoes/laceup
-
-	l_ear = /obj/item/device/radio/headset/heads/hop
-	id_type = /obj/item/weapon/card/id/civilian/head
-	pda_type = /obj/item/device/pda/heads/hop
-
 /* Cargo */
-
 /decl/hierarchy/outfit/job/cargo/cargo_tech
 	name = OUTFIT_JOB_NAME("Cargo Technician")
 	uniform = /obj/item/clothing/under/rank/cargotech
@@ -86,3 +81,13 @@
 	l_ear = /obj/item/device/radio/headset/headset_cargo
 	id_type = /obj/item/weapon/card/id/cargo
 	pda_type = /obj/item/device/pda/cargo
+
+/* Engineer */
+/decl/hierarchy/outfit/job/engineering/engineer
+	name = OUTFIT_JOB_NAME("Engineer")
+	uniform = /obj/item/clothing/under/rank/engineer
+	shoes = /obj/item/clothing/shoes/workboots
+
+	l_ear = /obj/item/device/radio/headset/headset_eng
+	id_type = /obj/item/weapon/card/id/engineering
+	pda_type = /obj/item/device/pda/engineering
