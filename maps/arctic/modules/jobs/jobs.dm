@@ -82,16 +82,6 @@
 
 	access = list()
 
-/datum/job/command/medical_manager
-	title = "Менеджер медицинского персонала"
-	department = "Medical"
-	department_flag = COM|MED
-	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
-
-	stats_aspect = STAT_IQ
-	skill_aspect = list("medical","surgery")
-	access = list()
-
 
 /* Research & Development */
 
