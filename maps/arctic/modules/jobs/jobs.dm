@@ -41,10 +41,6 @@
 	spawn_positions = 1
 	economic_modifier = 10
 
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.implant_loyalty(src)
-
 /datum/job/command/research_director
 	title = "Научный руководитель"
 	department = "Research & Development"
@@ -130,6 +126,7 @@
 
 /datum/job/cargo/cargo_technician
 	title = "Карготехник"
+	outfit_type = /decl/hierarchy/outfit/job/cargo/cargo_tech
 
 
 /* Security */

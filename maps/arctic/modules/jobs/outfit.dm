@@ -75,3 +75,14 @@
 	l_ear = /obj/item/device/radio/headset/heads/hop
 	id_type = /obj/item/weapon/card/id/civilian/head
 	pda_type = /obj/item/device/pda/heads/hop
+
+/* Cargo */
+
+/decl/hierarchy/outfit/job/cargo/cargo_tech
+	name = OUTFIT_JOB_NAME("Cargo Technician")
+	uniform = /obj/item/clothing/under/rank/cargotech
+	shoes = /obj/item/clothing/shoes/workboots
+
+	l_ear = /obj/item/device/radio/headset/headset_cargo
+	id_type = /obj/item/weapon/card/id/cargo
+	pda_type = /obj/item/device/pda/cargo
