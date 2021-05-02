@@ -91,3 +91,25 @@
 	l_ear = /obj/item/device/radio/headset/headset_eng
 	id_type = /obj/item/weapon/card/id/engineering
 	pda_type = /obj/item/device/pda/engineering
+
+/* Medical */
+/decl/hierarchy/outfit/job/medical
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat
+	shoes = /obj/item/clothing/shoes/white
+
+	l_ear = /obj/item/device/radio/headset/headset_med
+	id_type = /obj/item/weapon/card/id/medical
+	pda_type = /obj/item/device/pda/medical
+
+/decl/hierarchy/outfit/job/medical/doctor
+	name = OUTFIT_JOB_NAME("Doctor")
+	uniform = /obj/item/clothing/under/rank/medical
+
+/decl/hierarchy/outfit/job/medical/doctor/surgeon
+	name = OUTFIT_JOB_NAME("Surgeon")
+	uniform = /obj/item/clothing/under/rank/medical
+
+/decl/hierarchy/outfit/job/medical/chemist
+	name = OUTFIT_JOB_NAME("Chemist")
+	uniform = /obj/item/clothing/under/rank/chemist_new
+	pda_type = /obj/item/device/pda/chemist
