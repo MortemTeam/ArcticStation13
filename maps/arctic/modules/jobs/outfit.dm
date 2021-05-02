@@ -127,5 +127,5 @@
 	shoes = /obj/item/clothing/shoes/black
 
 	l_ear = /obj/item/device/radio/headset/headset_service
-	id_type = /obj/item/weapon/card/id/bartender
+	id_type = /obj/item/weapon/card/id/civilian/bartender
 	pda_type = /obj/item/device/pda
