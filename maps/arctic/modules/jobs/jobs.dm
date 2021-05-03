@@ -46,6 +46,7 @@
 	department = "Research & Development"
 	supervisors = "company officials and Corporate Regulations"
 	department_flag = COM|SCI
+	hud_icon = "hudresearchdirector"
 
 	head_position = 1
 	minimum_character_age  = 30
@@ -62,6 +63,7 @@
 	title = "Глава службы безопасности"
 	department = "Security"
 	department_flag = COM|SEC
+	hud_icon = "hudheadofsecurity"
 	outfit_type = /decl/hierarchy/outfit/job/security/hos
 
 	stats_aspect = STAT_ST
@@ -72,10 +74,10 @@
 	title = "Старший по персоналу"
 	department = "Service"
 	department_flag = COM|SRV
+	hud_icon = "hudheadofpersonnel"
 	outfit_type = /decl/hierarchy/outfit/job/hop
 
 	stats_aspect = STAT_IQ
-
 	access = list()
 
 
@@ -86,6 +88,7 @@
 	supervisors = "the research director"
 	selection_color = "#633d63"
 	department_flag = SCI
+	hud_icon = "hudresearchdirector"
 
 	total_positions = 3
 	spawn_positions = 3
@@ -115,6 +118,7 @@
 	supervisors = "the chief of personel"
 	selection_color = "#515151"
 	department_flag = SUP
+	hud_icon = "hudquartermaster"
 
 	total_positions = 3
 	spawn_positions = 3
@@ -136,6 +140,7 @@
 	supervisors = "the head of security"
 	selection_color = "#601c1c"
 	department_flag = SEC
+	hud_icon = "hudheadofsecurity"
 
 	total_positions = 3
 	spawn_positions = 3
@@ -165,6 +170,7 @@
 	supervisors = "the chief of personel"
 	selection_color = "#5b4d20"
 	department_flag = ENG
+	hud_icon = "hudchiefengineer"
 
 	total_positions = 3
 	spawn_positions = 3
@@ -186,6 +192,7 @@
 	supervisors = "the chief of personel"
 	selection_color = "#013d3b"
 	department_flag = MED
+	hud_icon = "hudresearchdirector"
 
 	total_positions = 2
 	spawn_positions = 2
@@ -214,8 +221,9 @@
 	department = "Service"
 	supervisors = "the chief of personel"
 	selection_color = "#515151"
-
 	department_flag = SRV
+	hud_icon = "hudassistant"
+
 	total_positions = -1
 	spawn_positions = -1
 	economic_modifier = 5
