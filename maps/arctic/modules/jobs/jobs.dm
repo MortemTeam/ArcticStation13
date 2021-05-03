@@ -19,6 +19,7 @@
 		/datum/job/medical/chemist,
 
 		/datum/job/service/assistant,
+		/datum/job/silicon/cyborg,
 	)
 
 /datum/job
