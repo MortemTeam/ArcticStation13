@@ -45,6 +45,7 @@
 
 	//CLOTHING
 	#include "modules/clothing/voidsuit.dm"
+	#include "modules/clothing/hand_state.dm"
 	#include "modules/clothing/tails/items.dm"
 
 	//JIVIN
