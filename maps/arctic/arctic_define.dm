@@ -47,5 +47,5 @@
 
 	evac_controller_type = /datum/evacuation_controller/shuttle
 
-/datum/map/arctic/perform_map_generation()
-	return 1
+/datum/map/arctic/build_away_sites()
+	return // don't build away sites
