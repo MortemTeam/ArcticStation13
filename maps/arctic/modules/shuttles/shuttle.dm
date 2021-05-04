@@ -1,5 +1,5 @@
 /area/shuttle/escape
-	base_turf = /turf/simulated/floor/plating
+	base_turf = /turf/space
 
 /datum/shuttle/autodock/ferry/emergency/centcom
 	name = "Escape"
