@@ -16,3 +16,8 @@
 /datum/uplink_item/item/third_reich/great_coat
 	name = "Great Coat"
 	path = /obj/item/clothing/suit/greatcoat
+
+/datum/uplink_item/item/third_reich/webley
+	name = "Webley Revolver"
+	path = /obj/item/weapon/gun/projectile/revolver/webley
+	item_cost = 30
