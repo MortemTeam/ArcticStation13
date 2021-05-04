@@ -14,13 +14,17 @@
 	#include "modules/erp_panel.dm"
 	#include "modules/lobby_music.dm"
 	#include "modules/mob.dm"
-	#include "modules/shuttles.dm"
 	#include "modules/renames.dm"
 	#include "modules/detective_guncase.dm"
 	#include "modules/spawnpoints.dm"
 
+	//SHUTTLES
+	#include "modules/shuttles/shuttle.dm"
+	#include "modules/shuttles/chair.dm"
+
 	//ANTAGONISTS
 	#include "modules/antagonists/traitor/traitor.dm"
+	#include "modules/antagonists/traitor/arsenal/custom.dm"
 	#include "modules/antagonists/traitor/arsenal/comintern.dm"
 	#include "modules/antagonists/traitor/arsenal/nanotrusten.dm"
 	#include "modules/antagonists/traitor/arsenal/third_reich.dm"
