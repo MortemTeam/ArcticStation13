@@ -4,6 +4,7 @@
 	desc = "It looks *almost* comfortable."
 	icon = 'maps/arctic/modules/shuttles/icons.dmi'
 	base_icon = "shuttle_chair"
+	icon_state = "shuttle_chair_preview"
 	material_alteration = MATERIAL_ALTERATION_NONE
 	anchored = TRUE
 
@@ -18,6 +19,7 @@
 
 /obj/structure/bed/chair/shuttle/red
 	base_icon = "shuttle_chaired"
+	icon_state = "shuttle_chair_preview"
 
 /obj/structure/bed/chair/shuttle/red/New(newloc, newmaterial)
 	..(newloc, "plastic", "carpet")
