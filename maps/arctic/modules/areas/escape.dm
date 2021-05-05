@@ -11,10 +11,14 @@
 	requires_power = 0
 	icon_state = "away"
 
-/area/escape/atmospherics
-	name = "Escape Atmospherics"
-	icon_state = "atmos"
-
 /area/escape/command
 	name = "Escape Command"
 	icon_state = "conference"
+
+/area/escape/bar
+	name = "Escape Bar"
+	icon_state = "bar"
+
+/area/escape/gameroom
+	name = "Escape Game Room"
+	icon_state = "escape"
