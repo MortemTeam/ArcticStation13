@@ -7,6 +7,7 @@
 "dM" = (/obj/effect/shuttle_landmark/escape/internim,/turf/space,/area/shuttle/escape/transit)
 "eo" = (/obj/machinery/door/airlock/external/bolted{frequency = 1380; id_tag = "escape_shuttle_hatch"; name = "Escape Shuttle"},/turf/simulated/floor/plating,/area/shuttle/escape/centcom)
 "fy" = (/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"fG" = (/obj/structure/bed/chair/shuttle/blue,/obj/structure/closet/walllocker/emerglocker/north,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "gf" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/handcuffs,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "gm" = (/turf/simulated/shuttle/wall/corner/dark/nw,/area/shuttle/escape/centcom)
 "gE" = (/turf/simulated/shuttle/wall/corner/dark/ne,/area/shuttle/escape/centcom)
@@ -17,7 +18,7 @@
 "je" = (/obj/effect/step_trigger/teleporter{teleport_x = 44; teleport_y = 44; teleport_z = 2},/turf/space/transit/north,/area/space)
 "kr" = (/obj/machinery/computer/operating,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "kI" = (/obj/machinery/door/airlock/security,/obj/effect/shuttle_landmark/escape/centcom,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
-"li" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"li" = (/obj/machinery/light/spot{dir = 1},/obj/structure/closet/walllocker/emerglocker/north,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "mr" = (/obj/machinery/computer/shuttle_control{shuttle_tag = "Escape"},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "mK" = (/obj/structure/table/standard,/obj/machinery/recharger,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "pS" = (/obj/effect/floor_decal/industrial/hatch/red,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
@@ -42,13 +43,16 @@
 "ys" = (/obj/machinery/atmospherics/pipe/tank/oxygen{dir = 1},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "zD" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/effect/floor_decal/industrial/hatch/red,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "zO" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/bloodpacks,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"AM" = (/obj/effect/floor_decal/industrial/hatch/red,/obj/structure/closet/walllocker/emerglocker/north,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "AN" = (/obj/structure/bed/chair/shuttle/red{dir = 1},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "Bh" = (/obj/machinery/door/airlock/glass_medical,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
+"DA" = (/obj/structure/bed/chair/shuttle/red,/obj/structure/closet/walllocker/emerglocker/north,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "EM" = (/obj/effect/step_trigger/thrower{name = "thrower_throwdownside"; nostop = 1; tiles = 0},/turf/space,/area/space)
 "Fb" = (/turf/simulated/shuttle/wall/corner/dark/sw,/area/shuttle/escape/centcom)
 "Fz" = (/obj/structure/window/shuttle,/obj/structure/grille,/turf/simulated/floor/plating,/area/shuttle/escape/centcom)
 "HK" = (/obj/effect/step_trigger/teleporter{teleport_x = 44; teleport_y = 44; teleport_z = 2},/turf/space,/area/space)
 "Jd" = (/turf/space/transit/north,/area/space)
+"Mi" = (/obj/structure/closet/firecloset/full,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "MF" = (/obj/machinery/sleeper,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "Pp" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "QZ" = (/obj/effect/floor_decal/industrial/loading,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
@@ -56,6 +60,7 @@
 "Sq" = (/obj/structure/table/standard,/obj/item/bodybag/cryobag,/obj/item/bodybag/cryobag,/obj/item/weapon/reagent_containers/glass/beaker/cryoxadone,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "Ss" = (/obj/structure/table/standard,/obj/item/weapon/storage/firstaid/fire,/obj/item/weapon/storage/firstaid/o2,/obj/item/weapon/storage/firstaid/toxin,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "SD" = (/turf/simulated/floor/snow,/area/eye_blind)
+"Vw" = (/obj/structure/bed/chair/shuttle/blue{dir = 4},/obj/structure/closet/walllocker/emerglocker/west,/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "VS" = (/obj/machinery/recharger/wallcharger{pixel_x = -25},/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "XC" = (/obj/structure/table/standard,/obj/item/weapon/storage/firstaid/toxin,/obj/item/weapon/storage/firstaid/toxin,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
 "XE" = (/obj/machinery/optable,/obj/machinery/oxygen_pump/anesthetic{pixel_x = 30},/turf/simulated/floor/shuttle/blue,/area/shuttle/escape/centcom)
@@ -94,17 +99,17 @@ HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYq
 HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqgmszFzFzFzFzFzszgEYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqgmszszhfhLmrvUmKszszgEYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
-HKYqYqYqYqYqYqYqYqYqYqYqYqYqgmszszszbRfyfyfyfyczpSszgEYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqYqYqgmszszszbRfyfyfyfyczAMszgEYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqYqgmszszszszhffyfyfyqJZmpSpSszgEYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqgmszrYlitVszszFzczFzszszuZwOxdszgEYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
-HKYqYqYqYqYqYqYqYqYqYqYqszhffyfyysszdfdffydfdfszzDfyfyRvszYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqszhffyfyysszDAdffydfdfszzDfyfyRvszYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqFzhffyfySqszVSfyfyfyfythzDfyfyqJFzYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqFzhffyfyMFszANANfyfygfszxkfyfyqJFzYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
-HKYqYqYqYqYqYqYqYqYqYqYqFzwBfyfyiNszFzFzkIFzFzszhffyfyqJFzYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqFzwBfyfyiNszFzFzkIFzFzszVwfyfyqJFzYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqFzhffyfyXEszsJfyQZfybdFzhffyfyqJFzYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqFzhffyfykrszsJfygGfybdFzhffyfyqJFzYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
-HKYqYqYqYqYqYqYqYqYqYqYqszhffyfyxvszszszszszszszhffyfyqJszYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
-HKYqYqYqYqYqYqYqYqYqYqYqFbszqffyfyZmvUvUvUvUvUvUfyfygGszuAYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqszhffyfyxvszszszszszszszhffyfyMiszYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
+HKYqYqYqYqYqYqYqYqYqYqYqFbszqffyfyZmvUvUfGvUvUvUfyfygGszuAYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqYqFbszzOfyBhfyfyfyfyfyfyfyfyszuAYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqYqYqFbszSsZmXIfyfyfyfyfyPpszuAYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
 HKYqYqYqYqYqYqYqYqYqYqYqYqYqYqFbszszXCfyfyfyxfbcszuAYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqYqHK
