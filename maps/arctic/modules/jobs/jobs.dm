@@ -69,7 +69,6 @@
 
 	stats_aspect = STAT_ST
 	skill_aspect = list("melee", "ranged")
-	access = list()
 
 /datum/job/command/chief_personel
 	title = "Старший по персоналу"
@@ -79,8 +78,6 @@
 	outfit_type = /decl/hierarchy/outfit/job/hop
 
 	stats_aspect = STAT_IQ
-	access = list()
-
 
 /* Research & Development */
 
@@ -96,7 +93,6 @@
 	economic_modifier = 5
 
 	stats_aspect = STAT_IQ
-	access = list()
 
 /datum/job/rnd/roboticist
 	title = "Робототехник"
@@ -127,7 +123,6 @@
 
 	stats_aspect = STAT_HT
 	skill_aspect = list("engineering","crafting")
-	access = list()
 
 /datum/job/cargo/cargo_technician
 	title = "Карготехник"
@@ -146,7 +141,6 @@
 	total_positions = 3
 	spawn_positions = 3
 	economic_modifier = 5
-	access = list()
 
 /datum/job/security/officer
 	title = "Офицер безопасности"
@@ -179,7 +173,6 @@
 
 	stats_aspect = STAT_HT
 	skill_aspect = list("engineering","crafting")
-	access = list()
 
 /datum/job/engineering/engineer
 	title = "Инженер"
@@ -201,7 +194,6 @@
 
 	stats_aspect = STAT_IQ
 	skill_aspect = list("medical", "surgery")
-	access = list()
 
 /datum/job/medical/doctor
 	title = "Доктор"
@@ -230,7 +222,6 @@
 	economic_modifier = 5
 
 	skill_aspect = list("cleaning","cooking","gardening","crafting")
-	access = list()
 
 /datum/job/service/assistant
 	title = "Ассистент"

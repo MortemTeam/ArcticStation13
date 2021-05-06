@@ -18,9 +18,10 @@
 	#include "modules/detective_guncase.dm"
 	#include "modules/spawnpoints.dm"
 
-	//SHUTTLES
-	#include "modules/shuttles/shuttle.dm"
-	#include "modules/shuttles/chair.dm"
+	//ACCESS
+	#include "modules/access/airlock_access.dm"
+	#include "modules/access/id_access.dm"
+	#include "modules/access/job_access.dm"
 
 	//ANTAGONISTS
 	#include "modules/antagonists/traitor/traitor.dm"
@@ -62,6 +63,10 @@
 	#include "modules/jobs/jobs.dm"
 	#include "modules/jobs/job_controller.dm"
 	#include "modules/jobs/outfit.dm"
+
+	//SHUTTLES
+	#include "modules/shuttles/shuttle.dm"
+	#include "modules/shuttles/chair.dm"
 
 	//MAPS
 	#include "arctic-1.dmm"
