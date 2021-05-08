@@ -9,6 +9,7 @@
 	//SINGLED MODULE
 	#include "modules/ambient_occlusion.dm"
 	#include "modules/camera_network.dm"
+	#include "modules/cargo_drop.dm"
 	#include "modules/crystal_heater.dm"
 	#include "modules/drill.dm"
 	#include "modules/erp_panel.dm"
@@ -24,6 +25,7 @@
 	#include "modules/access/job_access.dm"
 
 	//ANTAGONISTS
+	#include "modules/antagonists/uplink.dm"
 	#include "modules/antagonists/traitor/traitor.dm"
 	#include "modules/antagonists/traitor/arsenal/custom.dm"
 	#include "modules/antagonists/traitor/arsenal/comintern.dm"
