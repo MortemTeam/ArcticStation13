@@ -2715,6 +2715,7 @@
 #include "fixgame\poster.dm"
 #include "fixgame\browsers\browser.dm"
 #include "fixgame\browsers\notes.dm"
+#include "fixgame\browsers\paper.dm"
 #include "fixgame\browsers\strip.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
