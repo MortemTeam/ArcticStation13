@@ -1,9 +1,3 @@
-/datum/species/human
-	total_health = 100
-
-/datum/species/get_random_name(var/gender)
-	return "eblekukla"
-
 /mob/new_player/create_character(var/turf/spawn_turf)
 	..().update_happiness()
 

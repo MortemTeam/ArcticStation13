@@ -14,7 +14,6 @@
 	#include "modules/drill.dm"
 	#include "modules/erp_panel.dm"
 	#include "modules/lobby_music.dm"
-	#include "modules/mob.dm"
 	#include "modules/renames.dm"
 	#include "modules/detective_guncase.dm"
 	#include "modules/spawnpoints.dm"
@@ -65,6 +64,12 @@
 	#include "modules/jobs/jobs.dm"
 	#include "modules/jobs/job_controller.dm"
 	#include "modules/jobs/outfit.dm"
+
+	//MOB
+	#include "modules/mob/attack_animation.dm"
+	#include "modules/mob/mood_by_happiness.dm"
+	#include "modules/mob/organ_health.dm"
+	#include "modules/mob/random_name.dm"
 
 	//SHUTTLES
 	#include "modules/shuttles/shuttle.dm"
