@@ -5,16 +5,16 @@
 	desc = "A concentrated beam of energy in the shape of a blade. Very stylish... and lethal."
 	icon_state = "blade"
 	force = 40 //Normal attacks deal very high damage - about the same as wielded fire axe
-	armor_penetration = 100
-	sharp = 1
-	edge = 1
-	throwforce = 1  //Throwing or dropping the item deletes it.
+	armor_penetration = 10
+	throwforce = 25
 	throw_speed = 1
 	throw_range = 1
-	w_class = ITEM_SIZE_TINY //technically it's just energy or something, I dunno
+	w_class = ITEM_SIZE_NORMAL //technically it's just energy or something, I dunno
 	atom_flags = ATOM_FLAG_NO_BLOOD
 	attack_verb = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
 	hitsound = 'sound/weapons/blade1.ogg'
+
+	activate()
 
 /* Sushi */
 
