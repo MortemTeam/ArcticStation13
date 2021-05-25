@@ -1,5 +1,5 @@
 /obj/machinery/power/supermatter
-	var/thermal_multi = 10
+	var/thermal_multi = 20
 
 /obj/machinery/power/supermatter/Process()
 	..()
