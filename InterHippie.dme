@@ -2756,6 +2756,7 @@
 #include "maps\shared\from_arctic\detective_guncase.dm"
 #include "maps\shared\from_arctic\lobby_music.dm"
 #include "maps\shared\from_arctic\renames.dm"
+#include "maps\shared\from_arctic\antagonists\off_delver.dm"
 #include "maps\shared\from_arctic\antagonists\uplink.dm"
 #include "maps\shared\from_arctic\antagonists\mutant\powers.dm"
 #include "maps\shared\from_arctic\antagonists\mutant\screen_catcher.dm"
