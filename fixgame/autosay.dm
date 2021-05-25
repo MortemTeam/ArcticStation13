@@ -1,4 +1,4 @@
-/obj/item/device/radio/proc/autosay(message, from, channel) //BS12 EDIT
+/obj/item/device/radio/autosay(message, from, channel) //BS12 EDIT
 	var/datum/radio_frequency/connection = null
 	if(channel && channels && channels.len > 0)
 		if (channel == "department")
