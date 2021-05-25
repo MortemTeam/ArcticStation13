@@ -57,7 +57,6 @@
 
 	total_positions = 2
 	spawn_positions = 2
-	availablity_chance = 30
 	supervisors = "the invisible hand of the market"
 	selection_color = "#515151"
 	ideal_character_age = 30
