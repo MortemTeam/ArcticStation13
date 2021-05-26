@@ -1086,7 +1086,7 @@
 "vf" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/machinery/door/blast/regular{density = 0; icon_state = "pdoor0"; id = "Prison Gate"; name = "Security Blast Door"; opacity = 0},/obj/effect/wingrille_spawn/reinforced/polarized{id = "forensicswindow"},/turf/simulated/floor/plating,/area/security/detectives_office)
 "vg" = (/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/effect/wingrille_spawn/reinforced/polarized{id = "forensicswindow"},/obj/structure/disposalpipe/segment,/obj/machinery/door/blast/regular{density = 0; icon_state = "pdoor0"; id = "Prison Gate"; name = "Security Blast Door"; opacity = 0},/turf/simulated/floor/plating,/area/security/detectives_office)
 "vh" = (/turf/simulated/wall/r_wall,/area/security/detectives_office)
-"vi" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/obj/machinery/firealarm{dir = 4; pixel_x = 24},/obj/machinery/light{dir = 4; icon_state = "tube1"},/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/closet/secure_closet/forensics,/turf/simulated/floor/tiled/white,/area/security/detectives_office)
+"vi" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/obj/machinery/firealarm{dir = 4; pixel_x = 24},/obj/machinery/light{dir = 4; icon_state = "tube1"},/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/closet/secure_closet/detective,/turf/simulated/floor/tiled/white,/area/security/detectives_office)
 "vj" = (/obj/structure/sign/warning/secure_area,/turf/simulated/wall/r_wall,/area/security/detectives_office)
 "vk" = (/obj/machinery/status_display,/turf/simulated/wall,/area/security/detectives_office)
 "vl" = (/turf/simulated/wall,/area/security/processing)
